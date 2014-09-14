@@ -1,0 +1,5 @@
+name = Evefitparser
+description = Parse eve fits
+package = "Input filters"
+dependencies[] = filter
+core = 7.x
