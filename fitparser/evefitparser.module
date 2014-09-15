@@ -240,16 +240,6 @@ function _evefitparser_parsefits($text, $start, $end, $xml)
 		$fitString = $shipid .':'. $mods . $fitString;
 	}
 	$link = "<a href=\"#\" onclick=\"JavaScript:CCPEVE.showFitting('".$fitString."');\">Ingame Fit</a>";
-	/* $moddedText = $unmodtext . '<br />' . $link;
-	if(!(strpos($unmodtext, $link) !== FALSE))
-	{
-		$text = substr_replace($text, $moddedText, $substart. );
-	}
-	if((substr_count($text, $link) == 0))
-	{
-		$text = str_ireplace($unmodtext, $unmodtext . '<br />' . $link, $text);
-	}
-	return ($text); */
 	return ($link);
 }
 
