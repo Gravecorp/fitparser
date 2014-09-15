@@ -86,7 +86,7 @@ function _evefitparser_addToArray($itemid, $array, $amount=1)
 	}
 	return ($array);
 }
-
+/*
 function _evefitparser_GetCached($xml, $name) {
   $ret = 0;
   $cached_modules = &drupal_static('_evefitparser_cached_ids');
@@ -106,6 +106,30 @@ function _evefitparser_GetCached($xml, $name) {
 	$ret = $cached_modules[$name];
   }
   return($ret);
+}*/
+
+function _evefitparser_GetCached($xml, $name) {
+	$ret = 0;
+	$cached_modules = &drupal_static(__FUNCTION__);
+	if (!isset($cached_modules)) {
+		if ($cache = cache_get('_evefitparser_cached_modules')) {
+			$cached_modules = $cache->data;
+		}
+		else {
+			$items = $xml->xpath('//row');
+			foreach($item as $row)
+			{
+				$attr = $row->attributes();
+				$typeID = $row['typeID'];
+				$typeName = $row['typeName'];
+				$cached_modules[$typeName] = $typeID;
+			}
+			cache_set('_evefitparser_cached_modules', $cached_modules, 'cache');
+		}
+	}
+	
+	$ret = $cached_modules[$name];
+	return ($ret)
 }
 
 function _evefitparser_GetItemID($xml, $name)
