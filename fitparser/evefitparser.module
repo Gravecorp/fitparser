@@ -22,7 +22,6 @@ function evefitparser_filter_info() {
  */
 function _evefitparser_filter($text, $filter, $format, $langcode, $cache, $cache_id) {
 	$xml = null;
-	
 	$starttag = '[evefit]';
 	$endtag = '[/evefit]';
 	
@@ -43,14 +42,21 @@ function _evefitparser_filter($text, $filter, $format, $langcode, $cache, $cache
 		$substart = $start + strlen($starttag);
 		$subend = $end - $start - strlen($endtag);
 		
-		$text = _evefitparser_parsefits($text, $substart, $subend, $xml);
 		
-		$offset = $end + strlen($endtag);
+		$link = _evefitparser_parsefits($text, $substart, $subend, $xml);
+		
+		$unmodtext = substr($text, $substart, $subend);
+		$moddedText = $unmodtext . $link;
+		if(!(strpos($unmodtext, $link) !== FALSE))
+		{
+			$text = substr_replace($text, $moddedText, $substart, $subend);
+		}
+		$offset = $end + strlen($endtag) + strlen($link);
 	}
 	
 	$text = str_ireplace($starttag, '', $text);
 	$text = str_ireplace($endtag, '', $text);
-  return $text;
+	return $text;
 }
 
 function _evefitparser_CorrectItem($itemName)
@@ -86,27 +92,28 @@ function _evefitparser_addToArray($itemid, $array, $amount=1)
 	}
 	return ($array);
 }
-/*
-function _evefitparser_GetCached($xml, $name) {
-  $ret = 0;
-  $cached_modules = &drupal_static('_evefitparser_cached_ids');
-  if(!isset(cached_modules[$name]))
-  {
-	$items = $xml->xpath('row[@typeName="'. trim($name). '"]');
-	if (count($items) == 1)
+
+function _evefitparser_BuildCache($xml)
+{
+	$cached_modules = array();
+	$versionXpath = $xml->xpath('//eveitemid');
+	$versionNode = $versionXpath[0];
+	$versionAttributes = $versionNode->attributes();
+	
+	$cached_modules['xmlversion'] = (string)$versionAttributes['version'];
+	
+	$items = $xml->xpath('//row');
+	foreach($items as $row)
 	{
-		$item = $items[0];
-		$attr = $item->attributes();
-		$ret = $attr['typeID'];
-		$cached_modules[$name] = $attr['typeID'];
+		$attr = $row->attributes();
+		$typeID = (string)$row['typeID'];
+		$typeName = (string)$row['typeName'];
+		$cached_modules[''.$typeName.''] = $typeID;
 	}
-  }
-  else
-  {
-	$ret = $cached_modules[$name];
-  }
-  return($ret);
-}*/
+	cache_set('_evefitparser_cached_modules', $cached_modules, 'cache');
+	
+	return ($cached_modules);
+}
 
 function _evefitparser_GetCached($xml, $name) {
 	$ret = 0;
@@ -116,20 +123,26 @@ function _evefitparser_GetCached($xml, $name) {
 			$cached_modules = $cache->data;
 		}
 		else {
-			$items = $xml->xpath('//row');
-			foreach($item as $row)
-			{
-				$attr = $row->attributes();
-				$typeID = $row['typeID'];
-				$typeName = $row['typeName'];
-				$cached_modules[$typeName] = $typeID;
-			}
-			cache_set('_evefitparser_cached_modules', $cached_modules, 'cache');
+			$cached_modules = _evefitparser_BuildCache($xml);
 		}
 	}
 	
-	$ret = $cached_modules[$name];
-	return ($ret)
+	$versionXpath = $xml->xpath('//eveitemid');
+	$versionNode = $versionXpath[0];
+	$versionAttributes = $versionNode->attributes();
+	$version = (string)$versionAttributes['version'];
+	
+	if($version > $cached_modules['xmlversion'])
+	{
+		cache_clear_all('_evefitparser_cached_modules', 'cache', TRUE); 
+		$cached_modules = _evefitparser_BuildCache($xml);
+	}
+	
+	if(isset($cached_modules[$name]))
+	{
+		$ret = $cached_modules[$name];
+	}
+	return ($ret);
 }
 
 function _evefitparser_GetItemID($xml, $name)
@@ -226,9 +239,18 @@ function _evefitparser_parsefits($text, $start, $end, $xml)
 		}
 		$fitString = $shipid .':'. $mods . $fitString;
 	}
-	$link = '<a href="#" onclick="JavaScript:CCPEVE.showFitting(\''.$fitString.'\');">Ingame Fit</a>';
-	$text = str_ireplace($unmodtext, $unmodtext . '<br />' . $link, $text);
-	return ($text);
+	$link = "<a href=\"#\" onclick=\"JavaScript:CCPEVE.showFitting('".$fitString."');\">Ingame Fit</a>";
+	/* $moddedText = $unmodtext . '<br />' . $link;
+	if(!(strpos($unmodtext, $link) !== FALSE))
+	{
+		$text = substr_replace($text, $moddedText, $substart. );
+	}
+	if((substr_count($text, $link) == 0))
+	{
+		$text = str_ireplace($unmodtext, $unmodtext . '<br />' . $link, $text);
+	}
+	return ($text); */
+	return ($link);
 }
 
 /**
