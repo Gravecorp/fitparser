@@ -87,23 +87,36 @@ function _evefitparser_addToArray($itemid, $array, $amount=1)
 	return ($array);
 }
 
-function _evefitparser_GetItemID($xml, $name)
-{
-	$name = _evefitparser_CorrectItem($name);
-	$return = 0;
+function _evefitparser_GetCached($xml, $name) {
+  $ret = 0;
+  $cached_modules = &drupal_static('_evefitparser_cached_ids');
+  if(!isset(cached_modules[$name]))
+  {
 	$items = $xml->xpath('row[@typeName="'. trim($name). '"]');
 	if (count($items) == 1)
 	{
 		$item = $items[0];
 		$attr = $item->attributes();
-		$return = $attr['typeID'];
+		$ret = $attr['typeID'];
+		$cached_modules[$name] = $attr['typeID'];
 	}
+  }
+  else
+  {
+	$ret = $cached_modules[$name];
+  }
+  return($ret);
+}
+
+function _evefitparser_GetItemID($xml, $name)
+{
+	$name = _evefitparser_CorrectItem($name);
+	$return = _evefitparser_GetCached($xml, $name);
 	return($return);
 }
 
 function _evefitparser_parsefits($text, $start, $end, $xml)
-{	
-	
+{
 	$unmodtext = substr($text, $start, $end);
 	$prepare_text = str_ireplace('<p>', '<br />', $unmodtext);
 	$prepare_text = str_ireplace('</p>', '<br />', $prepare_text);
