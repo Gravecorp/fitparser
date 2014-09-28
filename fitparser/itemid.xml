@@ -1,4 +1,4 @@
-<eveitemid version="1">
+<eveitemid version="2">
 	<row typeID="41" typeName="Garbage" />
 	<row typeID="2368" typeName="Broken Organic Mortar Applicators" />
 	<row typeID="2369" typeName="Broken Sterile Conduits" />
@@ -11211,5 +11211,5 @@
 	<row typeID="366532" typeName="ARN-18 Cloak Field" />
 	<row typeID="366750" typeName="&apos;Phantasm&apos; ARN-18 Cloak Field" />
 	<row typeID="366534" typeName="Ishukone Cloak Field" />
-	<row typeID="366751" typeName="&apos;Poltergeist&apos; Ishukone Cloak Field" />
+<row typeID="366751" typeName="&apos;Poltergeist&apos; Ishukone Cloak Field" />
 </eveitemid>
