@@ -121,6 +121,7 @@
 	<row typeID="24690" typeName="Hyperion" />
 	<row typeID="33635" typeName="Hyperion Aliastra Edition" />
 	<row typeID="33637" typeName="Hyperion Innerzone Shipping Edition" />
+	<row typeID="34118" typeName="Megathron Quafe Edition" />
 	<row typeID="651" typeName="Hoarder" />
 	<row typeID="652" typeName="Mammoth" />
 	<row typeID="653" typeName="Wreathe" />
@@ -2588,10 +2589,8 @@
 	<row typeID="28511" typeName="Khanid Navy Rocket Launcher" />
 	<row typeID="499" typeName="Light Missile Launcher I" />
 	<row typeID="2404" typeName="Light Missile Launcher II" />
-	<row typeID="7993" typeName="Experimental TE-2100 Light Missile Launcher" />
-	<row typeID="8089" typeName="Upgraded &apos;Malkuth&apos; Light Missile Launcher" />
-	<row typeID="8091" typeName="Limited &apos;Limos&apos; Light Missile Launcher" />
-	<row typeID="8093" typeName="Prototype &apos;Arbalest&apos; Light Missile Launcher" />
+	<row typeID="8089" typeName="Compact Light Missile Launcher" />
+	<row typeID="8091" typeName="Ample Light Missile Launcher" />
 	<row typeID="13925" typeName="Domination Light Missile Launcher" />
 	<row typeID="13926" typeName="Dread Guristas Light Missile Launcher" />
 	<row typeID="16068" typeName="Caldari Navy Light Missile Launcher" />
@@ -2781,14 +2780,8 @@
 	<row typeID="1351" typeName="Basic Reactor Control Unit" />
 	<row typeID="1353" typeName="Reactor Control Unit I" />
 	<row typeID="1355" typeName="Reactor Control Unit II" />
-	<row typeID="8251" typeName="Partial Power Plant Manager: Reaction Control" />
-	<row typeID="8253" typeName="Alpha Reactor Control: Reaction Control" />
 	<row typeID="8255" typeName="Type-E Power Core Modification: Reaction Control" />
-	<row typeID="8257" typeName="Marked Generator Refitting: Reaction Control" />
-	<row typeID="8259" typeName="Local Power Plant Manager: Reaction Control I" />
-	<row typeID="8261" typeName="Beta Reactor Control: Reaction Control I" />
-	<row typeID="8263" typeName="Type-D Power Core Modification: Reaction Control" />
-	<row typeID="8265" typeName="Mark I Generator Refitting: Reaction Control" />
+	<row typeID="8263" typeName="Compact Reactor Control Unit" />
 	<row typeID="14128" typeName="Dark Blood Reactor Control Unit" />
 	<row typeID="14130" typeName="True Sansha Reactor Control Unit" />
 	<row typeID="14132" typeName="Shadow Serpentis Reactor Control Unit" />
@@ -2809,10 +2802,7 @@
 	<row typeID="28776" typeName="Syndicate Reactor Control Unit" />
 	<row typeID="4254" typeName="Micro Auxiliary Power Core II" />
 	<row typeID="11563" typeName="Micro Auxiliary Power Core I" />
-	<row typeID="16537" typeName="Micro B66 Core Augmentation" />
-	<row typeID="16539" typeName="Micro B88 Core Augmentation" />
-	<row typeID="16541" typeName="Micro K-Exhaust Core Augmentation" />
-	<row typeID="16543" typeName="Micro &apos;Vigor&apos; Core Augmentation" />
+	<row typeID="16537" typeName="Compact Micro Auxiliary Power Core" />
 	<row typeID="28740" typeName="Thukker Micro Auxiliary Power Core" />
 	<row typeID="31936" typeName="Navy Micro Auxiliary Power Core" />
 	<row typeID="421" typeName="Basic Capacitor Recharger" />
@@ -2840,17 +2830,11 @@
 	<row typeID="21819" typeName="Draclira&apos;s Modified Cap Recharger" />
 	<row typeID="23813" typeName="&apos;Palisade&apos; Cap Recharger I" />
 	<row typeID="28530" typeName="Khanid Navy Cap Recharger" />
-	<row typeID="509" typeName="Basic Capacitor Flux Coil" />
+	<row typeID="509" typeName="&apos;Basic&apos; Capacitor Flux Coil" />
 	<row typeID="1246" typeName="Capacitor Flux Coil I" />
 	<row typeID="1248" typeName="Capacitor Flux Coil II" />
-	<row typeID="8131" typeName="Local Power Plant Manager: Capacitor Flux I" />
-	<row typeID="8133" typeName="Beta Reactor Control: Capacitor Flux I" />
-	<row typeID="8135" typeName="Type-D Power Core Modification: Capacitor Flux" />
-	<row typeID="8137" typeName="Mark I Generator Refitting: Capacitor Flux" />
-	<row typeID="8163" typeName="Partial Power Plant Manager: Capacitor Flux" />
-	<row typeID="8165" typeName="Alpha Reactor Control: Capacitor Flux" />
-	<row typeID="8167" typeName="Type-E Power Core Modification: Capacitor Flux" />
-	<row typeID="8169" typeName="Marked Generator Refitting: Capacitor Flux" />
+	<row typeID="8133" typeName="Compact Capacitor Flux Coil" />
+	<row typeID="8135" typeName="Restrained Capacitor Flux Coil" />
 	<row typeID="23894" typeName="&apos;Page&apos; Capacitor Flux Coil I" />
 	<row typeID="506" typeName="Basic Capacitor Power Relay" />
 	<row typeID="1445" typeName="Capacitor Power Relay I" />
@@ -2938,14 +2922,7 @@
 	<row typeID="3469" typeName="Basic Co-Processor" />
 	<row typeID="3887" typeName="Co-Processor I" />
 	<row typeID="3888" typeName="Co-Processor II" />
-	<row typeID="8743" typeName="Nanomechanical CPU Enhancer" />
-	<row typeID="8744" typeName="Nanoelectrical Co-Processor" />
-	<row typeID="8745" typeName="Photonic CPU Enhancer" />
-	<row typeID="8746" typeName="Quantum Co-Processor" />
-	<row typeID="8747" typeName="Nanomechanical CPU Enhancer I" />
-	<row typeID="8748" typeName="Nanoelectrical Co-Processor I" />
-	<row typeID="8749" typeName="Photonic CPU Enhancer I" />
-	<row typeID="8750" typeName="Quantum Co-Processor I" />
+	<row typeID="8748" typeName="Upgraded Co-Processor" />
 	<row typeID="14230" typeName="Dread Guristas Co-Processor" />
 	<row typeID="14232" typeName="Shadow Serpentis Co-Processor" />
 	<row typeID="14768" typeName="Kaikka&apos;s Modified Co-Processor" />
@@ -2956,7 +2933,6 @@
 	<row typeID="15310" typeName="Tuvan&apos;s Modified Co-Processor" />
 	<row typeID="15312" typeName="Setele&apos;s Modified Co-Processor" />
 	<row typeID="15314" typeName="Cormack&apos;s Modified Co-Processor" />
-	<row typeID="15425" typeName="Naiyon&apos;s Modified Co-Processor" />
 	<row typeID="15675" typeName="Caldari Navy Co-Processor" />
 	<row typeID="15677" typeName="Federation Navy Co-Processor" />
 	<row typeID="20567" typeName="&apos;Dyad&apos; Co-Processor I" />
@@ -3131,7 +3107,7 @@
 	<row typeID="1190" typeName="Small Remote Capacitor Transmitter II" />
 	<row typeID="5087" typeName="Small Partial E95a Remote Capacitor Transmitter" />
 	<row typeID="5089" typeName="Small Murky Remote Capacitor Transmitter" />
-	<row typeID="5091" typeName="&apos;Regard&apos; Remote Capacitor Transmitter" />
+	<row typeID="5091" typeName="Small &apos;Regard&apos; Remote Capacitor Transmitter" />
 	<row typeID="5093" typeName="Small Asymmetric Remote Capacitor Transmitter" />
 	<row typeID="19065" typeName="Corpii C-Type Small Remote Capacitor Transmitter" />
 	<row typeID="19067" typeName="Corpii B-Type Small Remote Capacitor Transmitter" />
@@ -3287,10 +3263,8 @@
 	<row typeID="22937" typeName="&apos;Enterprise&apos; Remote Tracking Computer" />
 	<row typeID="442" typeName="Cargo Scanner I" />
 	<row typeID="2038" typeName="Cargo Scanner II" />
-	<row typeID="6129" typeName="Surface Cargo Scanner I" />
-	<row typeID="6131" typeName="Prototype Freight Sensors" />
-	<row typeID="6133" typeName="Interior Type-E Cargo Identifier" />
-	<row typeID="6135" typeName="PL-0 Shipment Probe" />
+	<row typeID="6131" typeName="Enduring Cargo Scanner" />
+	<row typeID="6135" typeName="Scoped Cargo Scanner" />
 	<row typeID="4258" typeName="Core Probe Launcher II" />
 	<row typeID="4260" typeName="Expanded Probe Launcher II" />
 	<row typeID="17938" typeName="Core Probe Launcher I" />
@@ -3299,16 +3273,10 @@
 	<row typeID="28758" typeName="Sisters Core Probe Launcher" />
 	<row typeID="443" typeName="Ship Scanner I" />
 	<row typeID="1855" typeName="Ship Scanner II" />
-	<row typeID="6525" typeName="Ta3 Perfunctory Vessel Probe" />
-	<row typeID="6527" typeName="Rudimentary Ship Scanner I" />
-	<row typeID="6529" typeName="Speculative Ship Identifier I" />
-	<row typeID="6531" typeName="Practical Type-E Ship Probe" />
+	<row typeID="6527" typeName="Compact Ship Scanner" />
 	<row typeID="444" typeName="Survey Scanner I" />
 	<row typeID="2333" typeName="Survey Scanner II" />
-	<row typeID="6567" typeName="ML-3 Amphilotite Mining Probe" />
-	<row typeID="6569" typeName="Residual Survey Scanner I" />
-	<row typeID="6571" typeName="Rock-Scanning Sensor Array I" />
-	<row typeID="6573" typeName="&apos;Dactyl&apos; Type-E Asteroid Analyzer" />
+	<row typeID="6569" typeName="Scoped Survey Scanner" />
 	<row typeID="1948" typeName="ECM - Ion Field Projector I" />
 	<row typeID="2563" typeName="ECM - Ion Field Projector II" />
 	<row typeID="9518" typeName="Initiated Ion Field ECM I" />
@@ -3368,21 +3336,21 @@
 	<row typeID="20240" typeName="Shielded Gravimetric Backup Cluster I" />
 	<row typeID="20242" typeName="Warded Gravimetric Backup Cluster I" />
 	<row typeID="21521" typeName="Gravimetric Firewall" />
-	<row typeID="1982" typeName="Basic LADAR Backup Array" />
-	<row typeID="2583" typeName="LADAR Backup Array I" />
-	<row typeID="2584" typeName="LADAR Backup Array II" />
-	<row typeID="6199" typeName="Reserve LADAR Scanners" />
-	<row typeID="6216" typeName="Emergency LADAR Scanners" />
-	<row typeID="6222" typeName="Protected LADAR Backup Cluster I" />
-	<row typeID="6241" typeName="Sealed LADAR Backup Cluster" />
-	<row typeID="6251" typeName="Surrogate LADAR Reserve Array I" />
-	<row typeID="6252" typeName="F-43 Repetitive LADAR Backup Sensors" />
-	<row typeID="6289" typeName="Surplus LADAR Reserve Array" />
-	<row typeID="6290" typeName="F-42 Reiterative LADAR Backup Sensors" />
+	<row typeID="1982" typeName="Basic Ladar Backup Array" />
+	<row typeID="2583" typeName="Ladar Backup Array I" />
+	<row typeID="2584" typeName="Ladar Backup Array II" />
+	<row typeID="6199" typeName="Reserve Ladar Scanners" />
+	<row typeID="6216" typeName="Emergency Ladar Scanners" />
+	<row typeID="6222" typeName="Protected Ladar Backup Cluster I" />
+	<row typeID="6241" typeName="Sealed Ladar Backup Cluster" />
+	<row typeID="6251" typeName="Surrogate Ladar Reserve Array I" />
+	<row typeID="6252" typeName="F-43 Repetitive Ladar Backup Sensors" />
+	<row typeID="6289" typeName="Surplus Ladar Reserve Array" />
+	<row typeID="6290" typeName="F-42 Reiterative Ladar Backup Sensors" />
 	<row typeID="20244" typeName="Secure Ladar Backup Cluster I" />
 	<row typeID="20246" typeName="Shielded Ladar Backup Cluster I" />
 	<row typeID="20248" typeName="Warded Ladar Backup Cluster I" />
-	<row typeID="21523" typeName="LADAR Firewall" />
+	<row typeID="21523" typeName="Ladar Firewall" />
 	<row typeID="1946" typeName="Basic RADAR Backup Array" />
 	<row typeID="4013" typeName="RADAR Backup Array I" />
 	<row typeID="4014" typeName="RADAR Backup Array II" />
@@ -6263,7 +6231,7 @@
 	<row typeID="2751" typeName="Advanced Medium Ship Assembly Array Blueprint" />
 	<row typeID="2753" typeName="Advanced Small Ship Assembly Array Blueprint" />
 	<row typeID="2754" typeName="Ammunition Assembly Array Blueprint" />
-	<row typeID="2756" typeName="Capital Ship Assembly Array Blueprint" />
+	<row typeID="2756" typeName="Supercapital Ship Assembly Array Blueprint" />
 	<row typeID="2758" typeName="Component Assembly Array Blueprint" />
 	<row typeID="2760" typeName="Drone Assembly Array Blueprint" />
 	<row typeID="2764" typeName="Equipment Assembly Array Blueprint" />
@@ -6272,7 +6240,7 @@
 	<row typeID="2770" typeName="Rapid Equipment Assembly Array Blueprint" />
 	<row typeID="2771" typeName="Small Ship Assembly Array Blueprint" />
 	<row typeID="2772" typeName="Subsystem Assembly Array Blueprint" />
-	<row typeID="2773" typeName="X-Large Ship Assembly Array Blueprint" />
+	<row typeID="2773" typeName="Capital Ship Assembly Array Blueprint" />
 	<row typeID="33868" typeName="Thukker Component Assembly Array Blueprint" />
 	<row typeID="2787" typeName="Corporate Hangar Array Blueprint" />
 	<row typeID="2788" typeName="Cynosural Generator Array Blueprint" />
@@ -6315,7 +6283,6 @@
 	<row typeID="2797" typeName="Simple Reactor Array Blueprint" />
 	<row typeID="2786" typeName="Moon Harvesting Array Blueprint" />
 	<row typeID="2765" typeName="Intensive Reprocessing Array Blueprint" />
-	<row typeID="2767" typeName="Compression Array Blueprint" />
 	<row typeID="2769" typeName="Reprocessing Array Blueprint" />
 	<row typeID="2755" typeName="Ballistic Deflection Array Blueprint" />
 	<row typeID="2757" typeName="Explosion Dampening Array Blueprint" />
@@ -6439,6 +6406,19 @@
 	<row typeID="33798" typeName="Men&apos;s &apos;Curate&apos; Coat (red/gold)" />
 	<row typeID="33799" typeName="Men&apos;s &apos;Curate&apos; Coat (dark bronze)" />
 	<row typeID="33800" typeName="Men&apos;s &apos;Curate&apos; Coat (black/silver)" />
+	<row typeID="34156" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Caldari)" />
+	<row typeID="34157" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Amarr)" />
+	<row typeID="34158" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Minmatar)" />
+	<row typeID="34159" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Gallente)" />
+	<row typeID="34160" typeName="Men&apos;s &apos;Marshal&apos; Jacket (ORE)" />
+	<row typeID="34161" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Sisters of EVE)" />
+	<row typeID="34162" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Mordu&apos;s Legion)" />
+	<row typeID="34163" typeName="Men&apos;s &apos;Marshal&apos; Jacket (interBus)" />
+	<row typeID="34164" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Angel Cartel)" />
+	<row typeID="34165" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Sansha&apos;s Nation)" />
+	<row typeID="34166" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Blood Raiders)" />
+	<row typeID="34167" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Guristas)" />
+	<row typeID="34168" typeName="Men&apos;s &apos;Marshal&apos; Jacket (Serpentis)" />
 	<row typeID="3966" typeName="Men&apos;s &apos;Precision&apos; Boots" />
 	<row typeID="4001" typeName="Men&apos;s &apos;Trench&apos; Boots" />
 	<row typeID="4008" typeName="Men&apos;s &apos;Lockstep&apos; Boots" />
@@ -6571,7 +6551,7 @@
 	<row typeID="33721" typeName="Women&apos;s &apos;Corsair&apos; Heels (blue)" />
 	<row typeID="33722" typeName="Women&apos;s &apos;Corsair&apos; Heels (brown)" />
 	<row typeID="33723" typeName="Women&apos;s &apos;Corsair&apos; Heels (beige)" />
-	<row typeID="33724" typeName="Women&apos;s &apos;Corsair&apos; Heels (beige)" />
+	<row typeID="33724" typeName="Women&apos;s &apos;Corsair&apos; Heels (gray)" />
 	<row typeID="33725" typeName="Women&apos;s &apos;Corsair&apos; Heels (red)" />
 	<row typeID="3975" typeName="Women&apos;s &apos;Structure&apos; Dress (navy)" />
 	<row typeID="4054" typeName="Women&apos;s &apos;Executor&apos; Coat" />
@@ -6611,6 +6591,19 @@
 	<row typeID="33741" typeName="Women&apos;s &apos;Rocket&apos; Dress (red)" />
 	<row typeID="33742" typeName="Women&apos;s &apos;Rocket&apos; Dress (white)" />
 	<row typeID="33743" typeName="Women&apos;s &apos;Rocket&apos; Dress (dark teal)" />
+	<row typeID="34169" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Caldari)" />
+	<row typeID="34170" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Amarr)" />
+	<row typeID="34171" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Minmatar)" />
+	<row typeID="34172" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Gallente)" />
+	<row typeID="34173" typeName="Women&apos;s &apos;Gunner&apos; Jacket (ORE)" />
+	<row typeID="34174" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Sisters of EVE)" />
+	<row typeID="34175" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Mordu&apos;s Legion)" />
+	<row typeID="34176" typeName="Women&apos;s &apos;Gunner&apos; Jacket (interBus)" />
+	<row typeID="34177" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Angel Cartel)" />
+	<row typeID="34178" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Sansha&apos;s Nation)" />
+	<row typeID="34179" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Blood Raiders)" />
+	<row typeID="34180" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Guristas)" />
+	<row typeID="34181" typeName="Women&apos;s &apos;Gunner&apos; Jacket (Serpentis)" />
 	<row typeID="4061" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (black)" />
 	<row typeID="4062" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (navy)" />
 	<row typeID="4063" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (dust)" />
@@ -7266,7 +7259,7 @@
 	<row typeID="11620" typeName="Sensor Booster I Blueprint" />
 	<row typeID="1212" typeName="Passive Targeter I Blueprint" />
 	<row typeID="11820" typeName="Gravimetric Backup Array I Blueprint" />
-	<row typeID="11824" typeName="LADAR Backup Array I Blueprint" />
+	<row typeID="11824" typeName="Ladar Backup Array I Blueprint" />
 	<row typeID="11828" typeName="Magnetometric Backup Array I Blueprint" />
 	<row typeID="11832" typeName="Multi Sensor Backup Array I Blueprint" />
 	<row typeID="11836" typeName="RADAR Backup Array I Blueprint" />
@@ -9648,6 +9641,7 @@
 	<row typeID="34053" typeName="Women&apos;s &apos;Hover&apos; Tights (opaque purple)" />
 	<row typeID="34054" typeName="Women&apos;s &apos;Hover&apos; Tights (white)" />
 	<row typeID="34055" typeName="Women&apos;s &apos;Hover&apos; Tights (yellow)" />
+	<row typeID="2767" typeName="Compression Array Blueprint" />
 	<row typeID="357008" typeName="Drone Hive - Lvl.3" />
 	<row typeID="351278" typeName="Gunnlogi" />
 	<row typeID="351824" typeName="Madrugar" />
@@ -9775,6 +9769,7 @@
 	<row typeID="366598" typeName="Ion Pistol Proficiency" />
 	<row typeID="366599" typeName="Ion Pistol Rapid Reload" />
 	<row typeID="366600" typeName="Ion Pistol Operation" />
+	<row typeID="367382" typeName="Nova Knife Fitting Optimization" />
 	<row typeID="353408" typeName="Dropsuit Command" />
 	<row typeID="353413" typeName="Minmatar Medium Dropsuits" />
 	<row typeID="353685" typeName="Amarr Heavy Dropsuits" />
@@ -9899,6 +9894,7 @@
 	<row typeID="356042" typeName="Krin&apos;s SIN-11 Assault Rifle" />
 	<row typeID="365623" typeName="&apos;Construct&apos; Duvolle Assault Rifle" />
 	<row typeID="365652" typeName="&apos;Pyrus&apos; Allotek Assault Rifle" />
+	<row typeID="367517" typeName="Kalante&apos;s RXS-05 Assault Rifle" />
 	<row typeID="352263" typeName="Forge Gun" />
 	<row typeID="353144" typeName="Breach Forge Gun" />
 	<row typeID="353145" typeName="&apos;Strumborne&apos; Forge Gun" />
@@ -9918,6 +9914,7 @@
 	<row typeID="365625" typeName="&apos;Construct&apos; Kaalakiota Forge Gun" />
 	<row typeID="365659" typeName="&apos;Pyrus&apos; Allotek Forge Gun" />
 	<row typeID="366345" typeName="&apos;Imperial Guard&apos; Viziam Forge Gun" />
+	<row typeID="367549" typeName="Alldin&apos;s IMP-10 Forge Gun" />
 	<row typeID="352499" typeName="Scrambler Pistol" />
 	<row typeID="353198" typeName="&apos;Surgewick&apos; Scrambler Pistol" />
 	<row typeID="355259" typeName="Assault Scrambler Pistol" />
@@ -9963,6 +9960,7 @@
 	<row typeID="363351" typeName="Balac&apos;s N-17 Sniper Rifle" />
 	<row typeID="365626" typeName="&apos;Construct&apos; Ishukone Sniper Rifle" />
 	<row typeID="365662" typeName="&apos;Pyrus&apos; Allotek Sniper Rifle" />
+	<row typeID="367500" typeName="Symb&apos;s FORK-5 Sniper Rifle" />
 	<row typeID="352891" typeName="Submachine Gun" />
 	<row typeID="353127" typeName="Breach Submachine Gun" />
 	<row typeID="353128" typeName="&apos;Slashvent&apos; Submachine Gun" />
@@ -9999,6 +9997,7 @@
 	<row typeID="353192" typeName="&apos;Haywire&apos; Wiyrkomi Swarm Launcher" />
 	<row typeID="365627" typeName="&apos;Construct&apos; Wiyrkomi Swarm Launcher" />
 	<row typeID="365665" typeName="&apos;Pyrus&apos; Allotek Swarm Launcher" />
+	<row typeID="367489" typeName="Beacon?s ELI-74 Swarm Launcher" />
 	<row typeID="351071" typeName="Assault C-I" />
 	<row typeID="353959" typeName="&apos;Carbon&apos; Assault C-I" />
 	<row typeID="353963" typeName="&apos;Firebrand&apos; Assault C-I" />
@@ -10369,6 +10368,7 @@
 	<row typeID="356052" typeName="Gastun&apos;s MIN-7 HMG" />
 	<row typeID="365631" typeName="&apos;Construct&apos; Boundless Heavy Machine Gun" />
 	<row typeID="365678" typeName="&apos;Pyrus&apos; Allotek Heavy Machine Gun" />
+	<row typeID="367548" typeName="Alex&apos;s Modified ZX-030 Heavy Machine Gun" />
 	<row typeID="351855" typeName="Mass Driver" />
 	<row typeID="355499" typeName="&apos;Tsunami&apos; Mass Driver" />
 	<row typeID="355779" typeName="Breach Mass Driver" />
@@ -10384,6 +10384,7 @@
 	<row typeID="355815" typeName="Boundless Assault Mass Driver" />
 	<row typeID="365632" typeName="&apos;Construct&apos; Freedom Mass Driver" />
 	<row typeID="365681" typeName="&apos;Pyrus&apos; Allotek Mass Driver" />
+	<row typeID="367502" typeName="Agimus&apos; Modified AGO-56 Mass Driver" />
 	<row typeID="354667" typeName="Basic Profile Dampener" />
 	<row typeID="354669" typeName="Basic Precision Enhancer" />
 	<row typeID="355517" typeName="Enhanced Profile Dampener" />
@@ -10414,6 +10415,7 @@
 	<row typeID="363396" typeName="&apos;Rawspark&apos; Viziam Laser Rifle" />
 	<row typeID="365630" typeName="&apos;Construct&apos; Viziam Laser Rifle" />
 	<row typeID="365675" typeName="&apos;Pyrus&apos; Allotek Laser Rifle" />
+	<row typeID="367541" typeName="Viktor?s NEG-1 Laser Rifle" />
 	<row typeID="354583" typeName="Shotgun" />
 	<row typeID="355495" typeName="Breach Shotgun" />
 	<row typeID="355497" typeName="&apos;Chimera&apos; Shotgun" />
@@ -10433,6 +10435,7 @@
 	<row typeID="355865" typeName="Duvolle Specialist Shotgun" />
 	<row typeID="365629" typeName="&apos;Construct&apos; CreoDron Shotgun" />
 	<row typeID="365671" typeName="&apos;Pyrus&apos; Allotek Shotgun" />
+	<row typeID="367552" typeName="Bons&apos; SIN-7 Shotgun" />
 	<row typeID="354714" typeName="Remote Explosive" />
 	<row typeID="355577" typeName="Proximity Explosive" />
 	<row typeID="357018" typeName="Flux Proximity Explosive" />
@@ -10472,6 +10475,11 @@
 	<row typeID="367228" typeName="Militia Plasma Cannon" />
 	<row typeID="367229" typeName="Militia Laser Rifle" />
 	<row typeID="367230" typeName="Militia Mass Driver" />
+	<row typeID="367436" typeName="Militia Ion Pistol" />
+	<row typeID="367437" typeName="Militia Bolt Pistol" />
+	<row typeID="367439" typeName="Militia Magsec SMG" />
+	<row typeID="367440" typeName="Militia Heavy Machine Gun" />
+	<row typeID="367472" typeName="Militia Flaylock Pistol" />
 	<row typeID="353486" typeName="Onikuma" />
 	<row typeID="353808" typeName="Baloch" />
 	<row typeID="355374" typeName="Sica" />
@@ -10746,6 +10754,7 @@
 	<row typeID="363858" typeName="&apos;Stormvein&apos; Carthum Assault Scrambler Rifle" />
 	<row typeID="365633" typeName="&apos;Construct&apos; Imperial Scrambler Rifle" />
 	<row typeID="365684" typeName="&apos;Pyrus&apos; Allotek Scrambler Rifle" />
+	<row typeID="367528" typeName="Darth&apos;s GIO-66 Scrambler Rifle" />
 	<row typeID="350916" typeName="Plasma Cannon" />
 	<row typeID="363357" typeName="&apos;Charstone&apos; Plasma Cannon" />
 	<row typeID="365688" typeName="&apos;Pyrus&apos; Plasma Cannon" />
@@ -10756,6 +10765,7 @@
 	<row typeID="363359" typeName="&apos;Deadflood&apos; Allotek Plasma Cannon" />
 	<row typeID="365635" typeName="&apos;Construct&apos; Allotek Plasma Cannon" />
 	<row typeID="365690" typeName="&apos;Pyrus&apos; Allotek Plasma Cannon" />
+	<row typeID="367477" typeName="Kubo?s GMK-16 Plasma Cannon" />
 	<row typeID="354664" typeName="Active Scanner" />
 	<row typeID="356918" typeName="&apos;Eclipse&apos; Active Scanner" />
 	<row typeID="364408" typeName="Flux Active Scanner" />
@@ -10817,9 +10827,17 @@
 	<row typeID="365934" typeName="&apos;Wolfman&apos; Assault A/1-Series" />
 	<row typeID="365936" typeName="&apos;Rattati&apos; Assault G/1-Series" />
 	<row typeID="365940" typeName="&apos;Foxfour&apos; Assault G-I" />
+	<row typeID="367442" typeName="Frontline Special Issue Mk II-A" />
+	<row typeID="367443" typeName="Frontline Special Issue Mk II-C" />
+	<row typeID="367450" typeName="Frontline Special Issue Mk II-M" />
+	<row typeID="367451" typeName="Frontline Special Issue Mk II-G" />
 	<row typeID="364099" typeName="&apos;Mauler&apos; Sentinel A-I" />
 	<row typeID="365930" typeName="&apos;Hellmar&apos; Sentinel ak.0" />
 	<row typeID="365942" typeName="&apos;Tigris&apos; Sentinel A-I" />
+	<row typeID="367453" typeName="Defender Special Issue Mk II-A" />
+	<row typeID="367455" typeName="Defender Special Issue Mk II-C" />
+	<row typeID="367456" typeName="Defender Special Issue Mk II-M" />
+	<row typeID="367457" typeName="Defender Special Issue Mk II-G" />
 	<row typeID="353353" typeName="Vehicle Electronics" />
 	<row typeID="353368" typeName="Vehicle Engineering" />
 	<row typeID="353405" typeName="Core Grid Management" />
@@ -10928,6 +10946,7 @@
 	<row typeID="365449" typeName="Ishukone Assault Rail Rifle" />
 	<row typeID="365459" typeName="&apos;Zerofrost&apos; Kaalakiota Rail Rifle" />
 	<row typeID="365460" typeName="&apos;Crawtide&apos; Ishukone Assault Rail Rifle" />
+	<row typeID="367519" typeName="Ghalag&apos;s Modified MRT-17 Rail Rifle" />
 	<row typeID="365777" typeName="Basic Blaster Ammo Expansion Unit" />
 	<row typeID="365778" typeName="Enhanced Blaster Ammo Expansion Unit" />
 	<row typeID="365779" typeName="Complex Blaster Ammo Expansion Unit" />
@@ -11211,5 +11230,5 @@
 	<row typeID="366532" typeName="ARN-18 Cloak Field" />
 	<row typeID="366750" typeName="&apos;Phantasm&apos; ARN-18 Cloak Field" />
 	<row typeID="366534" typeName="Ishukone Cloak Field" />
-<row typeID="366751" typeName="&apos;Poltergeist&apos; Ishukone Cloak Field" />
+	<row typeID="366751" typeName="&apos;Poltergeist&apos; Ishukone Cloak Field" />
 </eveitemid>
