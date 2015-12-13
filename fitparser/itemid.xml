@@ -183,12 +183,10 @@
 <row typeID="185" typeName="EMP S" />
 <row typeID="265" typeName="Heavy Defender Missile I" />
 <row typeID="32782" typeName="Light Defender Missile I" />
+<row typeID="37805" typeName="Republic Fleet Shield Recharger" />
 <row typeID="393" typeName="Shield Recharger I" />
 <row typeID="394" typeName="Shield Recharger II" />
-<row typeID="6485" typeName="M51 Iterative Shield Regenerator" />
-<row typeID="6487" typeName="Supplemental Screen Generator I" />
-<row typeID="6489" typeName="&apos;Benefactor&apos; Ward Reconstructor" />
-<row typeID="6491" typeName="Passive Barrier Compensator I" />
+<row typeID="6485" typeName="M51 Benefactor Compact Shield Recharger" />
 <row typeID="434" typeName="5MN Microwarpdrive I" />
 <row typeID="440" typeName="5MN Microwarpdrive II" />
 <row typeID="5945" typeName="500MN Cold-Gas Enduring Microwarpdrive" />
@@ -489,6 +487,7 @@
 <row typeID="16279" typeName="Ice Harvester I Blueprint" />
 <row typeID="17483" typeName="Strip Miner I Blueprint" />
 <row typeID="25267" typeName="Gas Cloud Harvester I Blueprint" />
+<row typeID="38660" typeName="Ice Mining Laser I Blueprint" />
 <row typeID="1178" typeName="Cap Booster 25 Blueprint" />
 <row typeID="1179" typeName="Cap Booster 50 Blueprint" />
 <row typeID="3553" typeName="Cap Booster 75 Blueprint" />
@@ -617,7 +616,7 @@
 <row typeID="19760" typeName="Frequency Modulation" />
 <row typeID="19761" typeName="Signal Dispersion" />
 <row typeID="19766" typeName="Signal Suppression" />
-<row typeID="19767" typeName="Turret Destabilization" />
+<row typeID="19767" typeName="Weapon Destabilization" />
 <row typeID="19921" typeName="Target Painting" />
 <row typeID="19922" typeName="Signature Focusing" />
 <row typeID="3318" typeName="Weapon Upgrades" />
@@ -780,7 +779,7 @@
 <row typeID="12092" typeName="Interceptors" />
 <row typeID="12093" typeName="Covert Ops" />
 <row typeID="12095" typeName="Assault Frigates" />
-<row typeID="12096" typeName="Logistics" />
+<row typeID="12096" typeName="Logistics Cruisers" />
 <row typeID="12098" typeName="Interdictors" />
 <row typeID="16591" typeName="Heavy Assault Cruisers" />
 <row typeID="17940" typeName="Mining Barge" />
@@ -828,6 +827,8 @@
 <row typeID="34533" typeName="Minmatar Tactical Destroyer" />
 <row typeID="35680" typeName="Caldari Tactical Destroyer" />
 <row typeID="35685" typeName="Gallente Tactical Destroyer" />
+<row typeID="37615" typeName="Command Destroyers" />
+<row typeID="40328" typeName="Logistics Frigates" />
 <row typeID="25233" typeName="Corporation Contracting" />
 <row typeID="25235" typeName="Contracting" />
 <row typeID="33467" typeName="Customs Code Expertise" />
@@ -1687,8 +1688,6 @@
 <row typeID="15872" typeName="Imperial Navy Dual Light Beam Laser" />
 <row typeID="23834" typeName="&apos;Mace&apos; Dual Light Beam Laser I" />
 <row typeID="23838" typeName="&apos;Gauntlet&apos; Small Focused Beam Laser I" />
-<row typeID="23840" typeName="&apos;Crossbow&apos; Focused Medium Beam Laser I" />
-<row typeID="23844" typeName="&apos;Arquebus&apos; Heavy Beam Laser I" />
 <row typeID="455" typeName="Quad Light Beam Laser I" />
 <row typeID="457" typeName="Focused Medium Beam Laser I" />
 <row typeID="459" typeName="Heavy Beam Laser I" />
@@ -1719,6 +1718,8 @@
 <row typeID="15861" typeName="Imperial Navy Quad Beam Laser" />
 <row typeID="15867" typeName="Imperial Navy Heavy Beam Laser" />
 <row typeID="15870" typeName="Imperial Navy Focused Medium Beam Laser" />
+<row typeID="23840" typeName="&apos;Crossbow&apos; Focused Medium Beam Laser I" />
+<row typeID="23844" typeName="&apos;Arquebus&apos; Heavy Beam Laser I" />
 <row typeID="461" typeName="Dual Heavy Beam Laser I" />
 <row typeID="463" typeName="Mega Beam Laser I" />
 <row typeID="464" typeName="Tachyon Beam Laser I" />
@@ -1763,7 +1764,6 @@
 <row typeID="15874" typeName="Imperial Navy Dual Heavy Beam Laser" />
 <row typeID="23848" typeName="&apos;Catapult&apos; Mega Beam Laser I" />
 <row typeID="23850" typeName="&apos;Ballista&apos; Tachyon Beam Laser I" />
-<row typeID="23836" typeName="&apos;Longbow&apos; Small Focused Pulse Laser I" />
 <row typeID="34272" typeName="Polarized Small Focused Pulse Laser" />
 <row typeID="450" typeName="Gatling Pulse Laser I" />
 <row typeID="451" typeName="Dual Light Pulse Laser I" />
@@ -1795,6 +1795,7 @@
 <row typeID="15864" typeName="Imperial Navy Small Focused Pulse Laser" />
 <row typeID="15868" typeName="Imperial Navy Gatling Pulse Laser" />
 <row typeID="15871" typeName="Imperial Navy Dual Light Pulse Laser" />
+<row typeID="23836" typeName="&apos;Longbow&apos; Small Focused Pulse Laser I" />
 <row typeID="456" typeName="Focused Medium Pulse Laser I" />
 <row typeID="458" typeName="Heavy Pulse Laser I" />
 <row typeID="3512" typeName="Focused Medium Pulse Laser II" />
@@ -1817,7 +1818,6 @@
 <row typeID="15869" typeName="Imperial Navy Focused Medium Pulse Laser" />
 <row typeID="23842" typeName="&apos;Joust&apos; Heavy Pulse Laser I" />
 <row typeID="34274" typeName="Polarized Heavy Pulse Laser" />
-<row typeID="23846" typeName="&apos;Halberd&apos; Mega Pulse Laser I" />
 <row typeID="34276" typeName="Polarized Mega Pulse Laser" />
 <row typeID="460" typeName="Dual Heavy Pulse Laser I" />
 <row typeID="462" typeName="Mega Pulse Laser I" />
@@ -1847,6 +1847,7 @@
 <row typeID="15858" typeName="Ammatar Navy Dual Heavy Pulse Laser" />
 <row typeID="15862" typeName="Imperial Navy Mega Pulse Laser" />
 <row typeID="15873" typeName="Imperial Navy Dual Heavy Pulse Laser" />
+<row typeID="23846" typeName="&apos;Halberd&apos; Mega Pulse Laser I" />
 <row typeID="484" typeName="125mm Gatling AutoCannon I" />
 <row typeID="485" typeName="150mm Light AutoCannon I" />
 <row typeID="486" typeName="200mm AutoCannon I" />
@@ -2132,44 +2133,37 @@
 <row typeID="17691" typeName="Standard XL Blueprint" />
 <row typeID="17693" typeName="Ultraviolet XL Blueprint" />
 <row typeID="17695" typeName="Xray XL Blueprint" />
-<row typeID="3544" typeName="Capital Murky Remote Shield Booster" />
+<row typeID="3544" typeName="CONCORD Capital Remote Shield Booster" />
 <row typeID="3616" typeName="Capital Remote Shield Booster I" />
 <row typeID="3606" typeName="Large Remote Shield Booster I" />
 <row typeID="3608" typeName="Large Remote Shield Booster II" />
-<row typeID="8635" typeName="Large Murky Remote Shield Booster" />
-<row typeID="8637" typeName="Large &apos;Atonement&apos; Remote Shield Booster" />
-<row typeID="8639" typeName="Large Asymmetric Remote Shield Booster" />
-<row typeID="8641" typeName="Large S95a Remote Shield Booster" />
+<row typeID="8635" typeName="Large Murky Compact Remote Shield Booster" />
+<row typeID="8639" typeName="Large Asymmetric Enduring Remote Shield Booster" />
+<row typeID="8641" typeName="Large S95a Scoped Remote Shield Booster" />
 <row typeID="3596" typeName="Medium Remote Shield Booster I" />
 <row typeID="3598" typeName="Medium Remote Shield Booster II" />
-<row typeID="8579" typeName="Medium Murky Remote Shield Booster" />
-<row typeID="8581" typeName="Medium &apos;Atonement&apos; Remote Shield Booster" />
-<row typeID="8583" typeName="Medium Asymmetric Remote Shield Booster" />
-<row typeID="8585" typeName="Medium S95a Remote Shield Booster" />
+<row typeID="8579" typeName="Medium Murky Compact Remote Shield Booster" />
+<row typeID="8583" typeName="Medium Asymmetric Enduring Remote Shield Booster" />
+<row typeID="8585" typeName="Medium S95a Scoped Remote Shield Booster" />
 <row typeID="19141" typeName="Gistum C-Type Medium Remote Shield Booster" />
 <row typeID="19143" typeName="Gistum B-Type Medium Remote Shield Booster" />
 <row typeID="19145" typeName="Gistum A-Type Medium Remote Shield Booster" />
 <row typeID="19147" typeName="Pithum C-Type Medium Remote Shield Booster" />
 <row typeID="19149" typeName="Pithum B-Type Medium Remote Shield Booster" />
 <row typeID="19151" typeName="Pithum A-Type Medium Remote Shield Booster" />
+<row typeID="405" typeName="Micro&apos; Remote Shield Booster" />
 <row typeID="3586" typeName="Small Remote Shield Booster I" />
 <row typeID="3588" typeName="Small Remote Shield Booster II" />
-<row typeID="8531" typeName="Small Murky Remote Shield Booster" />
-<row typeID="8533" typeName="Small &apos;Atonement&apos; Remote Shield Booster" />
-<row typeID="8535" typeName="Small Asymmetric Remote Shield Booster" />
-<row typeID="8537" typeName="Small S95a Remote Shield Booster" />
+<row typeID="8531" typeName="Small Murky Compact Remote Shield Booster" />
+<row typeID="8535" typeName="Small Asymmetric Enduring Remote Shield Booster" />
+<row typeID="8537" typeName="Small S95a Scoped Remote Shield Booster" />
 <row typeID="19129" typeName="Gistii C-Type Small Remote Shield Booster" />
 <row typeID="19131" typeName="Gistii B-Type Small Remote Shield Booster" />
 <row typeID="19133" typeName="Gistii A-Type Small Remote Shield Booster" />
 <row typeID="19135" typeName="Pithi C-Type Small Remote Shield Booster" />
 <row typeID="19137" typeName="Pithi B-Type Small Remote Shield Booster" />
 <row typeID="19139" typeName="Pithi A-Type Small Remote Shield Booster" />
-<row typeID="405" typeName="Micro Remote Shield Booster I" />
 <row typeID="406" typeName="Micro Remote Shield Booster II" />
-<row typeID="8627" typeName="Micro Murky Remote Shield Booster" />
-<row typeID="8629" typeName="Micro &apos;Atonement&apos; Remote Shield Booster" />
-<row typeID="8631" typeName="Micro Asymmetric Remote Shield Booster" />
-<row typeID="8633" typeName="Micro S95a Remote Shield Booster" />
 <row typeID="377" typeName="Small Shield Extender I" />
 <row typeID="380" typeName="Small Shield Extender II" />
 <row typeID="8427" typeName="Small Azeotropic Restrained Shield Extender" />
@@ -2777,7 +2771,6 @@
 <row typeID="16537" typeName="Vigor Compact Micro Auxiliary Power Core" />
 <row typeID="28740" typeName="Thukker Micro Auxiliary Power Core" />
 <row typeID="31936" typeName="Navy Micro Auxiliary Power Core" />
-<row typeID="23813" typeName="&apos;Palisade&apos; Cap Recharger I" />
 <row typeID="28530" typeName="Khanid Navy Cap Recharger" />
 <row typeID="421" typeName="&apos;Basic&apos; Capacitor Recharger" />
 <row typeID="1195" typeName="Cap Recharger I" />
@@ -2795,6 +2788,7 @@
 <row typeID="21817" typeName="Raysere&apos;s Modified Cap Recharger" />
 <row typeID="21818" typeName="Ahremen&apos;s Modified Cap Recharger" />
 <row typeID="21819" typeName="Draclira&apos;s Modified Cap Recharger" />
+<row typeID="23813" typeName="&apos;Palisade&apos; Cap Recharger I" />
 <row typeID="509" typeName="&apos;Basic&apos; Capacitor Flux Coil" />
 <row typeID="1246" typeName="Capacitor Flux Coil I" />
 <row typeID="1248" typeName="Capacitor Flux Coil II" />
@@ -2905,7 +2899,6 @@
 <row typeID="5365" typeName="&apos;Cetus&apos; ECM Shockwave I" />
 <row typeID="20581" typeName="&apos;Ghost&apos; ECM Burst" />
 <row typeID="27678" typeName="Remote ECM Burst I" />
-<row typeID="32413" typeName="Shadow Serpentis Remote Sensor Dampener" />
 <row typeID="1968" typeName="Remote Sensor Dampener I" />
 <row typeID="1969" typeName="Remote Sensor Dampener II" />
 <row typeID="5299" typeName="Low Frequency Sensor Suppressor I" />
@@ -2916,12 +2909,18 @@
 <row typeID="22945" typeName="&apos;Executive&apos; Remote Sensor Dampener I" />
 <row typeID="2108" typeName="Tracking Disruptor I" />
 <row typeID="2109" typeName="Tracking Disruptor II" />
-<row typeID="5319" typeName="F-392 Baker Nunn Tracking Disruptor I" />
-<row typeID="5320" typeName="Balmer Series Tracking Disruptor I" />
-<row typeID="5321" typeName="&apos;Abandon&apos; Tracking Disruptor I" />
-<row typeID="5322" typeName="DDO Photometry Tracking Disruptor I" />
-<row typeID="22931" typeName="&apos;Distributor&apos; Tracking Disruptor I" />
+<row typeID="5319" typeName="Baker Nunn Enduring Tracking Disruptor I" />
+<row typeID="5320" typeName="Balmer Series Compact Tracking Disruptor I" />
+<row typeID="5321" typeName="C-IR Compact Guidance Disruptor I" />
+<row typeID="5322" typeName="DDO Scoped Tracking Disruptor I" />
+<row typeID="22931" typeName="&apos;Distributor&apos; Guidance Disruptor I" />
 <row typeID="22933" typeName="&apos;Investor&apos; Tracking Disruptor I" />
+<row typeID="37543" typeName="Guidance Disruptor I" />
+<row typeID="37544" typeName="Highstroke Scoped Guidance Disruptor I" />
+<row typeID="37545" typeName="A-211 Enduring Guidance Disruptor I" />
+<row typeID="37546" typeName="Guidance Disruptor II" />
+<row typeID="28514" typeName="Khanid Navy Stasis Webifier" />
+<row typeID="30328" typeName="Civilian Stasis Webifier" />
 <row typeID="526" typeName="Stasis Webifier I" />
 <row typeID="527" typeName="Stasis Webifier II" />
 <row typeID="4025" typeName="X5 Prototype Engine Enervator" />
@@ -2939,8 +2938,6 @@
 <row typeID="14654" typeName="Tobias&apos; Modified Stasis Webifier" />
 <row typeID="17500" typeName="Caldari Navy Stasis Webifier" />
 <row typeID="17559" typeName="Federation Navy Stasis Webifier" />
-<row typeID="28514" typeName="Khanid Navy Stasis Webifier" />
-<row typeID="30328" typeName="Civilian Stasis Webifier" />
 <row typeID="1959" typeName="ECCM Projector I" />
 <row typeID="1960" typeName="ECCM Projector II" />
 <row typeID="7217" typeName="Spot Pulsing ECCM I" />
@@ -2948,50 +2945,42 @@
 <row typeID="7219" typeName="Scattering ECCM Projector I" />
 <row typeID="7220" typeName="Phased Muon ECCM Caster I" />
 <row typeID="22925" typeName="&apos;Bootleg&apos; ECCM Projector I" />
-<row typeID="508" typeName="Basic Shield Flux Coil" />
+<row typeID="508" typeName="&apos;Basic&apos; Shield Flux Coil" />
 <row typeID="1254" typeName="Shield Flux Coil I" />
 <row typeID="1256" typeName="Shield Flux Coil II" />
-<row typeID="8291" typeName="Local Power Plant Manager: Reaction Shield Flux I" />
-<row typeID="8293" typeName="Beta Reactor Control: Shield Flux I" />
-<row typeID="8295" typeName="Type-D Power Core Modification: Shield Flux" />
-<row typeID="8297" typeName="Mark I Generator Refitting: Shield Flux" />
-<row typeID="8323" typeName="Partial Power Plant Manager: Shield Flux" />
-<row typeID="8325" typeName="Alpha Reactor Shield Flux" />
-<row typeID="8327" typeName="Type-E Power Core Modification: Shield Flux" />
-<row typeID="8329" typeName="Marked Generator Refitting: Shield Flux" />
-<row typeID="1419" typeName="Basic Shield Power Relay" />
+<row typeID="8295" typeName="Type-D Restrained Shield Flux Coil" />
+<row typeID="8297" typeName="Mark I Compact Shield Flux Coil" />
+<row typeID="37825" typeName="Dread Guristas Shield Flux Coil" />
+<row typeID="37820" typeName="Caldari Navy Shield Power Relay" />
+<row typeID="1419" typeName="&apos;Basic&apos; Shield Power Relay" />
 <row typeID="1422" typeName="Shield Power Relay II" />
 <row typeID="2331" typeName="Shield Power Relay I" />
-<row typeID="8331" typeName="Local Power Plant Manager: Reaction Shield Power Relay I" />
-<row typeID="8333" typeName="Beta Reactor Control: Shield Power Relay I" />
-<row typeID="8335" typeName="Type-D Power Core Modification: Shield Power Relay" />
-<row typeID="8337" typeName="Mark I Generator Refitting: Shield Power Relay" />
-<row typeID="8339" typeName="Partial Power Plant Manager: Shield Power Relay" />
-<row typeID="8341" typeName="Alpha Reactor Shield Power Relay" />
-<row typeID="8343" typeName="Type-E Power Core Modification: Shield Power Relay" />
-<row typeID="8345" typeName="Marked Generator Refitting: Shield Power Relay" />
+<row typeID="8335" typeName="Type-D Restrained Shield Power Relay" />
+<row typeID="8337" typeName="Mark I Compact Shield Power Relay" />
 <row typeID="533" typeName="Small Energy Neutralizer I" />
-<row typeID="4471" typeName="5W Infectious Power System Malfunction" />
-<row typeID="4473" typeName="Small Rudimentary Energy Destabilizer I" />
-<row typeID="4475" typeName="Small Unstable Power Fluctuator I" />
-<row typeID="4477" typeName="Small &apos;Gremlin&apos; Power Core Disruptor I" />
+<row typeID="4471" typeName="Small Infectious Scoped Energy Neutralizer" />
+<row typeID="4477" typeName="Small Gremlin Compact Energy Neutralizer" />
 <row typeID="13003" typeName="Small Energy Neutralizer II" />
 <row typeID="14160" typeName="Dark Blood Small Energy Neutralizer" />
 <row typeID="14162" typeName="True Sansha Small Energy Neutralizer" />
 <row typeID="15794" typeName="Ammatar Navy Small Energy Neutralizer" />
 <row typeID="15800" typeName="Imperial Navy Small Energy Neutralizer" />
-<row typeID="23815" typeName="&apos;Caltrop&apos; Small Energy Neutralizer I" />
-<row typeID="23817" typeName="&apos;Ditch&apos; Medium Energy Neutralizer I" />
+<row typeID="23815" typeName="Small &apos;Caltrop&apos; Energy Neutralizer" />
+<row typeID="37622" typeName="Corpii C-Type Small Energy Neutralizer" />
+<row typeID="37623" typeName="Corpii B-Type Small Energy Neutralizer" />
+<row typeID="37624" typeName="Corpii A-Type Small Energy Neutralizer" />
+<row typeID="37625" typeName="Corpum C-Type Medium Energy Neutralizer" />
+<row typeID="37626" typeName="Corpum B-Type Medium Energy Neutralizer" />
+<row typeID="37627" typeName="Corpum A-Type Medium Energy Neutralizer" />
 <row typeID="12265" typeName="Medium Energy Neutralizer I" />
 <row typeID="12267" typeName="Medium Energy Neutralizer II" />
 <row typeID="14164" typeName="Dark Blood Medium Energy Neutralizer" />
 <row typeID="14166" typeName="True Sansha Medium Energy Neutralizer" />
 <row typeID="15796" typeName="Ammatar Navy Medium Energy Neutralizer" />
 <row typeID="15802" typeName="Imperial Navy Medium Energy Neutralizer" />
-<row typeID="16465" typeName="Medium Rudimentary Energy Destabilizer I" />
-<row typeID="16467" typeName="Medium &apos;Gremlin&apos; Power Core Disruptor I" />
-<row typeID="16469" typeName="50W Infectious Power System Malfunction" />
-<row typeID="16471" typeName="Medium Unstable Power Fluctuator I" />
+<row typeID="16467" typeName="Medium Gremlin Compact Energy Neutralizer" />
+<row typeID="16469" typeName="Medium Infectious Scoped Energy Neutralizer" />
+<row typeID="23817" typeName="Medium &apos;Ditch&apos; Energy Neutralizer" />
 <row typeID="12269" typeName="Heavy Energy Neutralizer I" />
 <row typeID="12271" typeName="Heavy Energy Neutralizer II" />
 <row typeID="14168" typeName="Dark Blood Heavy Energy Neutralizer" />
@@ -3006,63 +2995,58 @@
 <row typeID="14846" typeName="Draclira&apos;s Modified Heavy Energy Neutralizer" />
 <row typeID="15798" typeName="Ammatar Navy Heavy Energy Neutralizer" />
 <row typeID="15804" typeName="Imperial Navy Heavy Energy Neutralizer" />
-<row typeID="16473" typeName="Heavy Rudimentary Energy Destabilizer I" />
-<row typeID="16475" typeName="Heavy &apos;Gremlin&apos; Power Core Disruptor I" />
-<row typeID="16477" typeName="500W Infectious Power System Malfunction" />
-<row typeID="16479" typeName="Heavy Unstable Power Fluctuator I" />
-<row typeID="23819" typeName="&apos;Moat&apos; Heavy Energy Neutralizer I" />
-<row typeID="23821" typeName="&apos;Upir&apos; Small Nosferatu I" />
-<row typeID="530" typeName="Small Nosferatu I" />
-<row typeID="5135" typeName="E5 Prototype Energy Vampire" />
-<row typeID="5137" typeName="Small &apos;Knave&apos; Energy Drain" />
-<row typeID="5139" typeName="Small Diminishing Power System Drain I" />
-<row typeID="5141" typeName="Small &apos;Ghoul&apos; Energy Siphon I" />
-<row typeID="13001" typeName="Small Nosferatu II" />
-<row typeID="14148" typeName="Dark Blood Small Nosferatu" />
-<row typeID="14150" typeName="True Sansha Small Nosferatu" />
-<row typeID="15875" typeName="Ammatar Navy Small Nosferatu" />
-<row typeID="15881" typeName="Imperial Navy Small Nosferatu" />
-<row typeID="19101" typeName="Corpii C-Type Small Nosferatu" />
-<row typeID="19103" typeName="Corpii B-Type Small Nosferatu" />
-<row typeID="19105" typeName="Corpii A-Type Small Nosferatu" />
-<row typeID="12257" typeName="Medium Nosferatu I" />
-<row typeID="12259" typeName="Medium Nosferatu II" />
-<row typeID="14156" typeName="Dark Blood Medium Nosferatu" />
-<row typeID="14158" typeName="True Sansha Medium Nosferatu" />
-<row typeID="15877" typeName="Ammatar Navy Medium Nosferatu" />
-<row typeID="15883" typeName="Imperial Navy Medium Nosferatu" />
-<row typeID="16505" typeName="Medium &apos;Ghoul&apos; Energy Siphon I" />
-<row typeID="16507" typeName="Medium &apos;Knave&apos; Energy Drain" />
-<row typeID="16509" typeName="E50 Prototype Energy Vampire" />
-<row typeID="16511" typeName="Medium Diminishing Power System Drain I" />
-<row typeID="19107" typeName="Corpum C-Type Medium Nosferatu" />
-<row typeID="19109" typeName="Corpum B-Type Medium Nosferatu" />
-<row typeID="19111" typeName="Corpum A-Type Medium Nosferatu" />
-<row typeID="23824" typeName="&apos;Strigoi&apos; Medium Nosferatu I" />
-<row typeID="23829" typeName="&apos;Vrykolakas&apos; Heavy Nosferatu I" />
-<row typeID="12261" typeName="Heavy Nosferatu I" />
-<row typeID="12263" typeName="Heavy Nosferatu II" />
-<row typeID="14152" typeName="Dark Blood Heavy Nosferatu" />
-<row typeID="14154" typeName="True Sansha Heavy Nosferatu" />
-<row typeID="14816" typeName="Brokara&apos;s Modified Heavy Nosferatu" />
-<row typeID="14818" typeName="Tairei&apos;s Modified Heavy Nosferatu" />
-<row typeID="14820" typeName="Selynne&apos;s Modified Heavy Nosferatu" />
-<row typeID="14822" typeName="Raysere&apos;s Modified Heavy Nosferatu" />
-<row typeID="14824" typeName="Vizan&apos;s Modified Heavy Nosferatu" />
-<row typeID="14826" typeName="Ahremen&apos;s Modified Heavy Nosferatu" />
-<row typeID="14828" typeName="Chelm&apos;s Modified Heavy Nosferatu" />
-<row typeID="14830" typeName="Draclira&apos;s Modified Heavy Nosferatu" />
-<row typeID="15451" typeName="Shaqil&apos;s Modified Heavy Nosferatu" />
-<row typeID="15879" typeName="Ammatar Navy Heavy Nosferatu" />
-<row typeID="15885" typeName="Imperial Navy Heavy Nosferatu" />
-<row typeID="16497" typeName="Heavy &apos;Ghoul&apos; Energy Siphon I" />
-<row typeID="16499" typeName="Heavy &apos;Knave&apos; Energy Drain" />
-<row typeID="16501" typeName="E500 Prototype Energy Vampire" />
-<row typeID="16503" typeName="Heavy Diminishing Power System Drain I" />
-<row typeID="19113" typeName="Corpus C-Type Heavy Nosferatu" />
-<row typeID="19115" typeName="Corpus B-Type Heavy Nosferatu" />
-<row typeID="19117" typeName="Corpus A-Type Heavy Nosferatu" />
-<row typeID="19119" typeName="Corpus X-Type Heavy Nosferatu" />
+<row typeID="16475" typeName="Heavy Gremlin Compact Energy Neutralizer" />
+<row typeID="16477" typeName="Heavy Infectious Scoped Energy Neutralizer" />
+<row typeID="23819" typeName="Heavy &apos;Moat&apos; Energy Neutralizer" />
+<row typeID="37628" typeName="Corpus C-Type Heavy Energy Neutralizer" />
+<row typeID="37629" typeName="Corpus B-Type Heavy Energy Neutralizer" />
+<row typeID="37630" typeName="Corpus A-Type Heavy Energy Neutralizer" />
+<row typeID="37631" typeName="Corpus X-Type Heavy Energy Neutralizer" />
+<row typeID="530" typeName="Small Energy Nosferatu I" />
+<row typeID="5137" typeName="Small Knave Scoped Energy Nosferatu" />
+<row typeID="5141" typeName="Small Ghoul Compact Energy Nosferatu" />
+<row typeID="13001" typeName="Small Energy Nosferatu II" />
+<row typeID="14148" typeName="Dark Blood Small Energy Nosferatu" />
+<row typeID="14150" typeName="True Sansha Small Energy Nosferatu" />
+<row typeID="15875" typeName="Ammatar Navy Small Energy Nosferatu" />
+<row typeID="15881" typeName="Imperial Navy Small Energy Nosferatu" />
+<row typeID="19101" typeName="Corpii C-Type Small Energy Nosferatu" />
+<row typeID="19103" typeName="Corpii B-Type Small Energy Nosferatu" />
+<row typeID="19105" typeName="Corpii A-Type Small Energy Nosferatu" />
+<row typeID="23821" typeName="Small &apos;Upir&apos; Energy Nosferatu" />
+<row typeID="12257" typeName="Medium Energy Nosferatu I" />
+<row typeID="12259" typeName="Medium Energy Nosferatu II" />
+<row typeID="14156" typeName="Dark Blood Medium Energy Nosferatu" />
+<row typeID="14158" typeName="True Sansha Medium Energy Nosferatu" />
+<row typeID="15877" typeName="Ammatar Navy Medium Energy Nosferatu" />
+<row typeID="15883" typeName="Imperial Navy Medium Energy Nosferatu" />
+<row typeID="16505" typeName="Medium Ghoul Compact Energy Nosferatu" />
+<row typeID="16507" typeName="Medium Knave Scoped Energy Nosferatu" />
+<row typeID="19107" typeName="Corpum C-Type Medium Energy Nosferatu" />
+<row typeID="19109" typeName="Corpum B-Type Medium Energy Nosferatu" />
+<row typeID="19111" typeName="Corpum A-Type Medium Energy Nosferatu" />
+<row typeID="23824" typeName="Medium &apos;Strigoi&apos; Energy Nosferatu" />
+<row typeID="12261" typeName="Heavy Energy Nosferatu I" />
+<row typeID="12263" typeName="Heavy Energy Nosferatu II" />
+<row typeID="14152" typeName="Dark Blood Heavy Energy Nosferatu" />
+<row typeID="14154" typeName="True Sansha Heavy Energy Nosferatu" />
+<row typeID="14816" typeName="Brokara&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14818" typeName="Tairei&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14820" typeName="Selynne&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14822" typeName="Raysere&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14824" typeName="Vizan&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14826" typeName="Ahremen&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14828" typeName="Chelm&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="14830" typeName="Draclira&apos;s Modified Heavy Energy Nosferatu" />
+<row typeID="15879" typeName="Ammatar Navy Heavy Energy Nosferatu" />
+<row typeID="15885" typeName="Imperial Navy Heavy Energy Nosferatu" />
+<row typeID="16497" typeName="Heavy Ghoul Compact Energy Nosferatu" />
+<row typeID="16499" typeName="Heavy Knave Scoped Energy Nosferatu" />
+<row typeID="19113" typeName="Corpus C-Type Heavy Energy Nosferatu" />
+<row typeID="19115" typeName="Corpus B-Type Heavy Energy Nosferatu" />
+<row typeID="19117" typeName="Corpus A-Type Heavy Energy Nosferatu" />
+<row typeID="19119" typeName="Corpus X-Type Heavy Energy Nosferatu" />
+<row typeID="23829" typeName="Heavy &apos;Vrykolakas&apos; Energy Nosferatu" />
 <row typeID="529" typeName="Small Remote Capacitor Transmitter I" />
 <row typeID="1190" typeName="Small Remote Capacitor Transmitter II" />
 <row typeID="5087" typeName="Small Partial E95a Remote Capacitor Transmitter" />
@@ -3121,7 +3105,6 @@
 <row typeID="15780" typeName="Imperial Navy Small Capacitor Booster" />
 <row typeID="20555" typeName="Small &apos;Siesta&apos; Capacitor Booster" />
 <row typeID="23807" typeName="&apos;Saddle&apos; Small Capacitor Booster I" />
-<row typeID="23809" typeName="&apos;Harness&apos; Medium Capacitor Booster I" />
 <row typeID="577" typeName="Medium Capacitor Booster I" />
 <row typeID="2024" typeName="Medium Capacitor Booster II" />
 <row typeID="4829" typeName="Medium F-RX Prototype Capacitor Boost" />
@@ -3133,6 +3116,7 @@
 <row typeID="15776" typeName="Ammatar Navy Medium Capacitor Booster" />
 <row typeID="15784" typeName="Imperial Navy Medium Capacitor Booster" />
 <row typeID="20557" typeName="Medium &apos;Gattotte&apos; Capacitor Booster" />
+<row typeID="23809" typeName="&apos;Harness&apos; Medium Capacitor Booster I" />
 <row typeID="3576" typeName="Heavy Capacitor Booster I" />
 <row typeID="3578" typeName="Heavy Capacitor Booster II" />
 <row typeID="5047" typeName="Heavy F-RX Prototype Capacitor Boost" />
@@ -3166,13 +3150,13 @@
 <row typeID="4789" typeName="Small Peroxide Capacitor Power Cell" />
 <row typeID="4791" typeName="Small Ohm Capacitor Reserve I" />
 <row typeID="23801" typeName="&apos;Crucible&apos; Small Capacitor Battery I" />
-<row typeID="23803" typeName="&apos;Censer&apos; Medium Capacitor Battery I" />
 <row typeID="2018" typeName="Medium Capacitor Battery I" />
 <row typeID="3496" typeName="Medium Capacitor Battery II" />
 <row typeID="6073" typeName="Medium Ld-Acid Capacitor Battery I" />
 <row typeID="6083" typeName="Medium Peroxide Capacitor Power Cell" />
 <row typeID="6097" typeName="Medium Ohm Capacitor Reserve I" />
 <row typeID="6111" typeName="Medium F-4a Ld-Sulfate Capacitor Charge Unit" />
+<row typeID="23803" typeName="&apos;Censer&apos; Medium Capacitor Battery I" />
 <row typeID="2020" typeName="Large Capacitor Battery I" />
 <row typeID="3504" typeName="Large Capacitor Battery II" />
 <row typeID="4869" typeName="Large F-4a Ld-Sulfate Capacitor Charge Unit" />
@@ -3733,20 +3717,40 @@
 <row typeID="20189" typeName="Fenrir" />
 <row typeID="3546" typeName="Limited Mega Ion Siege Blaster I" />
 <row typeID="20450" typeName="Ion Siege Blaster Cannon I" />
+<row typeID="37291" typeName="Capital Keyboard Cat Launcher ABLE" />
+<row typeID="37300" typeName="Capital Keyboard Cat Launcher BAKER" />
+<row typeID="37301" typeName="Capital Keyboard Cat Launcher CHARLIE" />
+<row typeID="37302" typeName="Capital Keyboard Cat Launcher DOG" />
+<row typeID="37303" typeName="Capital Keyboard Cat Launcher EASY" />
 <row typeID="3550" typeName="Dual 1000mm &apos;Scout&apos; Accelerator Cannon" />
 <row typeID="20448" typeName="Dual 1000mm Railgun I" />
 <row typeID="3561" typeName="Dual Giga Modal Laser I" />
 <row typeID="20446" typeName="Dual Giga Beam Laser I" />
 <row typeID="3559" typeName="Dual Modal Giga Pulse Laser I" />
 <row typeID="20444" typeName="Dual Giga Pulse Laser I" />
+<row typeID="37290" typeName="Capital Grumpy Cat Launcher ABLE" />
+<row typeID="37296" typeName="Capital Grumpy Cat Launcher BAKER" />
+<row typeID="37297" typeName="Capital Grumpy Cat Launcher CHARLIE" />
+<row typeID="37298" typeName="Capital Grumpy Cat Launcher DOG" />
+<row typeID="37299" typeName="Capital Grumpy Cat Launcher EASY" />
 <row typeID="3571" typeName="Quad 3500mm Gallium Cannon" />
 <row typeID="20454" typeName="Quad 3500mm Siege Artillery I" />
 <row typeID="3573" typeName="6x2500mm Heavy Gallium Repeating Cannon" />
 <row typeID="20452" typeName="6x2500mm Repeating Cannon I" />
+<row typeID="37289" typeName="Capital Ceiling Cat Launcher ABLE" />
+<row typeID="37304" typeName="Capital Ceiling Cat Launcher BAKER" />
+<row typeID="37305" typeName="Capital Ceiling Cat Launcher CHARLIE" />
+<row typeID="37306" typeName="Capital Ceiling Cat Launcher DOG" />
+<row typeID="37307" typeName="Capital Ceiling Cat Launcher EASY" />
+<row typeID="32444" typeName="Citadel Cruise Launcher I" />
+<row typeID="37288" typeName="Capital Nyan Cat Launcher ABLE" />
+<row typeID="37292" typeName="Capital Nyan Cat Launcher BAKER" />
+<row typeID="37293" typeName="Capital Nyan Cat Launcher CHARLIE" />
+<row typeID="37294" typeName="Capital Nyan Cat Launcher DOG" />
+<row typeID="37295" typeName="Capital Nyan Cat Launcher EASY" />
 <row typeID="3563" typeName="&apos;Limos&apos; Citadel Cruise Launcher I" />
 <row typeID="3565" typeName="Shock &apos;Limos&apos; Citadel Torpedo Bay I" />
 <row typeID="20539" typeName="Citadel Torpedo Launcher I" />
-<row typeID="32444" typeName="Citadel Cruise Launcher I" />
 <row typeID="3542" typeName="Capital Neutron Saturation Injector I" />
 <row typeID="20703" typeName="Capital Shield Booster I" />
 <row typeID="21009" typeName="Capital Propulsion Engine" />
@@ -3801,7 +3805,6 @@
 <row typeID="24557" typeName="Capital Doomsday Weapon Mount Blueprint" />
 <row typeID="24559" typeName="Capital Ship Maintenance Bay Blueprint" />
 <row typeID="24561" typeName="Capital Corporate Hangar Bay Blueprint" />
-<row typeID="23736" typeName="Clone Vat Bay I Blueprint" />
 <row typeID="23954" typeName="Jump Portal Generator I Blueprint" />
 <row typeID="28647" typeName="Covert Cynosural Field Generator I Blueprint" />
 <row typeID="28653" typeName="Covert Jump Portal Generator I Blueprint" />
@@ -3822,6 +3825,7 @@
 <row typeID="22554" typeName="Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint" />
 <row typeID="22556" typeName="Mining Foreman Link - Mining Laser Field Enhancement I Blueprint" />
 <row typeID="22558" typeName="Mining Foreman Link - Laser Optimization I Blueprint" />
+<row typeID="23736" typeName="Clone Vat Bay I Blueprint" />
 <row typeID="4292" typeName="Siege Module II" />
 <row typeID="4294" typeName="Triage Module II" />
 <row typeID="20280" typeName="Siege Module I" />
@@ -3852,11 +3856,15 @@
 <row typeID="23773" typeName="Ragnarok" />
 <row typeID="23757" typeName="Archon" />
 <row typeID="23919" typeName="Aeon" />
+<row typeID="37604" typeName="Amarr Force Auxiliary" />
 <row typeID="23915" typeName="Chimera" />
 <row typeID="23917" typeName="Wyvern" />
+<row typeID="37605" typeName="Caldari Force Auxiliary" />
 <row typeID="23911" typeName="Thanatos" />
 <row typeID="23913" typeName="Nyx" />
+<row typeID="37607" typeName="Gallente Force Auxiliary" />
 <row typeID="24483" typeName="Nidhoggur" />
+<row typeID="37606" typeName="Minmatar Force Auxiliary" />
 <row typeID="22852" typeName="Hel" />
 <row typeID="22448" typeName="Absolution" />
 <row typeID="22474" typeName="Damnation" />
@@ -4076,6 +4084,7 @@
 <row typeID="24550" typeName="Judgement" />
 <row typeID="24552" typeName="Oblivion" />
 <row typeID="24554" typeName="Aurora Ominae" />
+<row typeID="37474" typeName="Catmageddon" />
 <row typeID="23674" typeName="Gjallarhorn" />
 <row typeID="24549" typeName="Gjallarhorn Blueprint" />
 <row typeID="24551" typeName="Judgement Blueprint" />
@@ -4937,7 +4946,6 @@
 <row typeID="28607" typeName="Orca Blueprint" />
 <row typeID="28352" typeName="Rorqual" />
 <row typeID="28606" typeName="Orca" />
-<row typeID="23795" typeName="&apos;Gorget&apos; Small Armor Repairer I" />
 <row typeID="28556" typeName="Khanid Navy Small Armor Repairer" />
 <row typeID="33076" typeName="Small Ancillary Armor Repairer" />
 <row typeID="523" typeName="Small Armor Repairer I" />
@@ -4965,6 +4973,7 @@
 <row typeID="19015" typeName="Coreli A-Type Small Armor Repairer" />
 <row typeID="21853" typeName="Civilian Armor Repairer" />
 <row typeID="22887" typeName="&apos;Harmony&apos; Small Armor Repairer I" />
+<row typeID="23795" typeName="&apos;Gorget&apos; Small Armor Repairer I" />
 <row typeID="3528" typeName="Medium Armor Repairer I" />
 <row typeID="3530" typeName="Medium Armor Repairer II" />
 <row typeID="4569" typeName="Medium I-a Polarized Armor Regenerator" />
@@ -4992,7 +5001,6 @@
 <row typeID="23797" typeName="&apos;Greaves&apos; Medium Armor Repairer I" />
 <row typeID="28549" typeName="Khanid Navy Medium Armor Repairer" />
 <row typeID="33101" typeName="Medium Ancillary Armor Repairer" />
-<row typeID="23799" typeName="&apos;Hauberk&apos; Large Armor Repairer I" />
 <row typeID="28544" typeName="Khanid Navy Large Armor Repairer" />
 <row typeID="33103" typeName="Large Ancillary Armor Repairer" />
 <row typeID="3538" typeName="Large Armor Repairer I" />
@@ -5036,6 +5044,7 @@
 <row typeID="19045" typeName="Corpus X-Type Large Armor Repairer" />
 <row typeID="19046" typeName="Centus X-Type Large Armor Repairer" />
 <row typeID="22891" typeName="&apos;Protest&apos; Large Armor Repairer I" />
+<row typeID="23799" typeName="&apos;Hauberk&apos; Large Armor Repairer I" />
 <row typeID="3534" typeName="Capital Inefficient Armor Repair Unit" />
 <row typeID="20701" typeName="Capital Armor Repairer I" />
 <row typeID="524" typeName="Small Hull Repairer I" />
@@ -5059,21 +5068,18 @@
 <row typeID="5757" typeName="Large Automated Structural Restoration" />
 <row typeID="5759" typeName="Large I-b Polarized Structural Regenerator" />
 <row typeID="21508" typeName="Large &apos;Integrative&apos; Hull Repair Unit" />
-<row typeID="3536" typeName="Capital Coaxial Remote Armor Repairer" />
+<row typeID="3536" typeName="CONCORD Capital Remote Armor Repairer" />
 <row typeID="24569" typeName="Capital Remote Armor Repairer I" />
 <row typeID="26914" typeName="Large Remote Armor Repairer II" />
 <row typeID="11359" typeName="Large Remote Armor Repairer I" />
-<row typeID="16449" typeName="Large I-ax Remote Armor Repairer" />
-<row typeID="16451" typeName="Large Coaxial Remote Armor Repairer" />
-<row typeID="16453" typeName="Large &apos;Arup&apos; Remote Armor Repairer" />
-<row typeID="16455" typeName="Large &apos;Solace&apos; Remote Armor Repairer" />
-<row typeID="22951" typeName="&apos;Pacifier&apos; Large Remote Armor Repairer" />
+<row typeID="16449" typeName="Large I-ax Enduring Remote Armor Repairer" />
+<row typeID="16451" typeName="Large Coaxial Compact Remote Armor Repairer" />
+<row typeID="16455" typeName="Large Solace Scoped Remote Armor Repairer" />
 <row typeID="23416" typeName="&apos;Peace&apos; Large Remote Armor Repairer" />
 <row typeID="11357" typeName="Medium Remote Armor Repairer I" />
-<row typeID="16441" typeName="Medium I-ax Remote Armor Repairer" />
-<row typeID="16443" typeName="Medium Coaxial Remote Armor Repairer" />
-<row typeID="16445" typeName="Medium &apos;Arup&apos; Remote Armor Repairer" />
-<row typeID="16447" typeName="Medium &apos;Solace&apos; Remote Armor Repairer" />
+<row typeID="16441" typeName="Medium I-ax Enduring Remote Armor Repairer" />
+<row typeID="16443" typeName="Medium Coaxial Compact Remote Armor Repairer" />
+<row typeID="16447" typeName="Medium Solace Scoped Remote Armor Repairer" />
 <row typeID="18987" typeName="Corelum C-Type Medium Remote Armor Repairer" />
 <row typeID="18989" typeName="Corelum B-Type Medium Remote Armor Repairer" />
 <row typeID="18991" typeName="Corelum A-Type Medium Remote Armor Repairer" />
@@ -5084,10 +5090,9 @@
 <row typeID="26913" typeName="Medium Remote Armor Repairer II" />
 <row typeID="26912" typeName="Small Remote Armor Repairer II" />
 <row typeID="11355" typeName="Small Remote Armor Repairer I" />
-<row typeID="16433" typeName="Small I-ax Remote Armor Repairer" />
-<row typeID="16435" typeName="Small Coaxial Remote Armor Repairer" />
-<row typeID="16437" typeName="Small &apos;Arup&apos; Remote Armor Repairer" />
-<row typeID="16439" typeName="Small &apos;Solace&apos; Remote Armor Repairer" />
+<row typeID="16433" typeName="Small I-ax Enduring Remote Armor Repairer" />
+<row typeID="16435" typeName="Small Coaxial Compact Remote Armor Repairer" />
+<row typeID="16439" typeName="Small Solace Scoped Remote Armor Repairer" />
 <row typeID="18981" typeName="Coreli C-Type Small Remote Armor Repairer" />
 <row typeID="18983" typeName="Coreli B-Type Small Remote Armor Repairer" />
 <row typeID="18985" typeName="Coreli A-Type Small Remote Armor Repairer" />
@@ -5095,7 +5100,6 @@
 <row typeID="19049" typeName="Centii B-Type Small Remote Armor Repairer" />
 <row typeID="19051" typeName="Centii A-Type Small Remote Armor Repairer" />
 <row typeID="22947" typeName="&apos;Beatnik&apos; Small Remote Armor Repairer" />
-<row typeID="23414" typeName="&apos;Brotherhood&apos; Small Remote Armor Repairer" />
 <row typeID="4299" typeName="Small Remote Hull Repairer II" />
 <row typeID="27932" typeName="Small Remote Hull Repairer I" />
 <row typeID="27930" typeName="Medium Remote Hull Repairer I" />
@@ -5120,6 +5124,11 @@
 <row typeID="28661" typeName="Kronos" />
 <row typeID="28665" typeName="Vargur" />
 <row typeID="28654" typeName="Warp Disruption Field Generator I" />
+<row typeID="37608" typeName="Pitfall Compact Warp Disruption Field Generator" />
+<row typeID="37610" typeName="Clutch Restrained Warp Disruption Field Generator" />
+<row typeID="37611" typeName="M-36 Enduring Warp Disruption Field Generator" />
+<row typeID="37612" typeName="True Sansha Warp Disruption Field Generator" />
+<row typeID="37613" typeName="CONCORD Warp Disruption Field Generator" />
 <row typeID="4248" typeName="Warp Disruption Field Generator II" />
 <row typeID="1401" typeName="&apos;Basic&apos; Inertial Stabilizers" />
 <row typeID="1403" typeName="Inertial Stabilizers I" />
@@ -5158,6 +5167,8 @@
 <row typeID="29015" typeName="Targeting Range Dampening Script" />
 <row typeID="35794" typeName="Missile Range Script" />
 <row typeID="35795" typeName="Missile Precision Script" />
+<row typeID="40334" typeName="Missile Range Disruption Script" />
+<row typeID="40335" typeName="Missile Precision Disruption Script" />
 <row typeID="28668" typeName="Nanite Repair Paste" />
 <row typeID="29000" typeName="Optimal Range Script Blueprint" />
 <row typeID="29002" typeName="Tracking Speed Script Blueprint" />
@@ -5170,6 +5181,8 @@
 <row typeID="29016" typeName="Targeting Range Dampening Script Blueprint" />
 <row typeID="35796" typeName="Missile Range Script Blueprint" />
 <row typeID="35797" typeName="Missile Precision Script Blueprint" />
+<row typeID="40336" typeName="Missile Range Disruption Script Blueprint" />
+<row typeID="40337" typeName="Missile Precision Disruption Script Blueprint" />
 <row typeID="30744" typeName="Neural Network Analyzer" />
 <row typeID="30745" typeName="Sleeper Data Library" />
 <row typeID="30746" typeName="Ancient Coordinates Database" />
@@ -6254,6 +6267,10 @@
 <row typeID="17812" typeName="Republic Fleet Firetail" />
 <row typeID="17841" typeName="Federation Navy Comet" />
 <row typeID="33677" typeName="Police Pursuit Comet" />
+<row typeID="37453" typeName="Crucifier Navy Issue" />
+<row typeID="37454" typeName="Vigil Fleet Issue" />
+<row typeID="37455" typeName="Griffin Navy Issue" />
+<row typeID="37456" typeName="Maulus Navy Issue" />
 <row typeID="29336" typeName="Scythe Fleet Issue" />
 <row typeID="29337" typeName="Augoror Navy Issue" />
 <row typeID="29340" typeName="Osprey Navy Issue" />
@@ -6333,6 +6350,7 @@
 <row typeID="36483" typeName="Men&apos;s &apos;Hephaestus&apos; Shirt (cyan)" />
 <row typeID="36484" typeName="Men&apos;s &apos;Hephaestus&apos; Shirt (green)" />
 <row typeID="36485" typeName="Men&apos;s &apos;Hephaestus&apos; Shirt (gray/orange)" />
+<row typeID="37866" typeName="Male &apos;Serpentis&apos; T-shirt (olive/black)" />
 <row typeID="33791" typeName="Men&apos;s &apos;Impact&apos; Jacket (monochrome)" />
 <row typeID="33792" typeName="Men&apos;s &apos;Impact&apos; Jacket (green camo)" />
 <row typeID="33793" typeName="Men&apos;s &apos;Impact&apos; Jacket (graphite)" />
@@ -6360,6 +6378,7 @@
 <row typeID="34348" typeName="Men&apos;s &apos;Outlaw&apos; Jacket (Sansha&apos;s Nation)" />
 <row typeID="34349" typeName="Men&apos;s &apos;Outlaw&apos; Jacket (Guristas)" />
 <row typeID="34393" typeName="Men&apos;s &apos;Outlaw&apos; Jacket (Burnt Orange)" />
+<row typeID="37817" typeName="Men&apos;s &apos;Curate&apos; Coat (festive)" />
 <row typeID="4097" typeName="Men&apos;s &apos;Field Marshal&apos; Coat" />
 <row typeID="4098" typeName="Men&apos;s &apos;Esquire&apos; Coat" />
 <row typeID="4233" typeName="Men&apos;s &apos;Esquire&apos; Coat (black)" />
@@ -6611,6 +6630,7 @@
 <row typeID="34351" typeName="Women&apos;s &apos;Outlaw&apos; Coat (Guristas)" />
 <row typeID="34353" typeName="Women&apos;s &apos;Outlaw&apos; Coat (Blood Raiders)" />
 <row typeID="34394" typeName="Women&apos;s &apos;Outlaw&apos; Coat (Burnt Orange)" />
+<row typeID="37816" typeName="Women&apos;s &apos;Rocket&apos; Dress (festive)" />
 <row typeID="33063" typeName="Women&apos;s &apos;Red Star&apos; T-shirt" />
 <row typeID="33109" typeName="Women&apos;s &apos;Quafe&apos; T-shirt YC 115" />
 <row typeID="33487" typeName="Women&apos;s &apos;Luxury&apos; T-shirt" />
@@ -6623,6 +6643,7 @@
 <row typeID="36489" typeName="Women&apos;s &apos;Hephaestus&apos; Shirt (cyan)" />
 <row typeID="36490" typeName="Women&apos;s &apos;Hephaestus&apos; Shirt (green)" />
 <row typeID="36491" typeName="Women&apos;s &apos;Hephaestus&apos; Shirt (gray/orange)" />
+<row typeID="37865" typeName="Female &apos;Serpentis&apos; T-shirt (olive/black)" />
 <row typeID="4061" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (black)" />
 <row typeID="4062" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (navy)" />
 <row typeID="4063" typeName="Women&apos;s &apos;Sterling&apos; Dress Blouse (dust)" />
@@ -6786,6 +6807,9 @@
 <row typeID="3144" typeName="Zainou &apos;Gnome&apos; Launcher CPU Efficiency LE-602" />
 <row typeID="3145" typeName="Zainou &apos;Gnome&apos; Launcher CPU Efficiency LE-604" />
 <row typeID="3148" typeName="Zainou &apos;Gnome&apos; Launcher CPU Efficiency LE-606" />
+<row typeID="3149" typeName="Hardwiring - Zainou &apos;Sharpshooter&apos; ZMX11" />
+<row typeID="3150" typeName="Hardwiring - Zainou &apos;Sharpshooter&apos; ZMX110" />
+<row typeID="3151" typeName="Hardwiring - Zainou &apos;Sharpshooter&apos; ZMX1100" />
 <row typeID="3176" typeName="Zainou &apos;Snapshot&apos; Torpedoes TD-602" />
 <row typeID="3177" typeName="Zainou &apos;Snapshot&apos; Torpedoes TD-604" />
 <row typeID="3180" typeName="Zainou &apos;Snapshot&apos; Torpedoes TD-606" />
@@ -7251,9 +7275,9 @@
 <row typeID="1128" typeName="Medium Capacitor Booster I Blueprint" />
 <row typeID="3567" typeName="Small Capacitor Booster I Blueprint" />
 <row typeID="3577" typeName="Heavy Capacitor Booster I Blueprint" />
-<row typeID="1106" typeName="Small Nosferatu I Blueprint" />
-<row typeID="12258" typeName="Medium Nosferatu I Blueprint" />
-<row typeID="12262" typeName="Heavy Nosferatu I Blueprint" />
+<row typeID="1106" typeName="Small Energy Nosferatu I Blueprint" />
+<row typeID="12258" typeName="Medium Energy Nosferatu I Blueprint" />
+<row typeID="12262" typeName="Heavy Energy Nosferatu I Blueprint" />
 <row typeID="1109" typeName="Small Energy Neutralizer I Blueprint" />
 <row typeID="12266" typeName="Medium Energy Neutralizer I Blueprint" />
 <row typeID="12270" typeName="Heavy Energy Neutralizer I Blueprint" />
@@ -7269,6 +7293,7 @@
 <row typeID="30329" typeName="Civilian Stasis Webifier Blueprint" />
 <row typeID="12710" typeName="Target Painter I Blueprint" />
 <row typeID="28655" typeName="Warp Disruption Field Generator I Blueprint" />
+<row typeID="40338" typeName="Guidance Disruptor I Blueprint" />
 <row typeID="11614" typeName="Tracking Disruptor I Blueprint" />
 <row typeID="11622" typeName="ECCM - Gravimetric I Blueprint" />
 <row typeID="11623" typeName="ECCM - Ladar I Blueprint" />
@@ -7548,6 +7573,26 @@
 <row typeID="34778" typeName="CSM 10 Electee Archive Script " />
 <row typeID="36946" typeName="Expired Blood Raider Cerebral Accelerator" />
 <row typeID="36948" typeName="Expired Blood Raider Advanced Cerebral Accelerator" />
+<row typeID="37874" typeName="Project Compass Star Charts" />
+<row typeID="37875" typeName="Contraband Amarrian Walnuts" />
+<row typeID="37877" typeName="Cerebrum In A Container" />
+<row typeID="37878" typeName="Sansha Claws Fairytale Book" />
+<row typeID="37879" typeName="Festive Firecrackers" />
+<row typeID="37880" typeName="Max Amarria" />
+<row typeID="37881" typeName="Grand Teigjon Casino Chip" />
+<row typeID="37882" typeName="YC117 Symposium On Emergent Threats Access Pass" />
+<row typeID="37883" typeName="95th Interstellar Mindclash Championship Tickets" />
+<row typeID="37884" typeName="Feawen&apos;s Approval Documentation" />
+<row typeID="37885" typeName="Meat Popsicle" />
+<row typeID="37886" typeName="Capital Parking Ticket" />
+<row typeID="37887" typeName="Counterfeit Dominix Model" />
+<row typeID="37888" typeName="Starsi" />
+<row typeID="37889" typeName="YC118 Succession Trial Champion’s Decree – House Tash-Murkon" />
+<row typeID="37892" typeName="YC118 Succession Trial Champion’s Decree – House Ardishapur" />
+<row typeID="37893" typeName="YC118 Succession Trial Champion’s Decree – House Kador" />
+<row typeID="37894" typeName="YC118 Succession Trial Champion’s Decree – House Khanid" />
+<row typeID="37895" typeName="YC118 Succession Trial Champion’s Decree – House Kor-Azor" />
+<row typeID="37896" typeName="YC118 Succession Trial Champion’s Decree – House Sarum" />
 <row typeID="33064" typeName="Boots.ini" />
 <row typeID="33767" typeName="Women&apos;s &apos;New Eden Open I&apos; T-shirt YC 114" />
 <row typeID="33768" typeName="Women&apos;s &apos;New Eden Open II&apos; T-shirt YC 116" />
@@ -7773,8 +7818,6 @@
 <row typeID="18779" typeName="Coreli B-Type Adaptive Nano Plating" />
 <row typeID="18789" typeName="Coreli A-Type Adaptive Nano Plating" />
 <row typeID="28520" typeName="Khanid Navy Adaptive Nano Plating" />
-<row typeID="23783" typeName="&apos;Abatis&apos; 100mm Steel Plates" />
-<row typeID="23791" typeName="&apos;Citadella&apos; 100mm Steel Plates" />
 <row typeID="28778" typeName="Syndicate 100mm Steel Plates" />
 <row typeID="31896" typeName="Imperial Navy 100mm Steel Plates" />
 <row typeID="31898" typeName="Federation Navy 100mm Steel Plates" />
@@ -7782,6 +7825,8 @@
 <row typeID="11341" typeName="100mm Rolled Tungsten Compact Plates" />
 <row typeID="11343" typeName="100mm Crystalline Carbonide Restrained Plates" />
 <row typeID="20345" typeName="100mm Steel Plates II" />
+<row typeID="23783" typeName="&apos;Abatis&apos; 100mm Steel Plates" />
+<row typeID="23791" typeName="&apos;Citadella&apos; 100mm Steel Plates" />
 <row typeID="11295" typeName="200mm Steel Plates I" />
 <row typeID="11349" typeName="200mm Rolled Tungsten Compact Plates" />
 <row typeID="11351" typeName="200mm Crystalline Carbonide Restrained Plates" />
@@ -7790,7 +7835,6 @@
 <row typeID="28782" typeName="Syndicate 200mm Steel Plates" />
 <row typeID="31904" typeName="Imperial Navy 200mm Steel Plates" />
 <row typeID="31906" typeName="Federation Navy 200mm Steel Plates" />
-<row typeID="23789" typeName="&apos;Bastion&apos; 400mm Steel Plates" />
 <row typeID="28784" typeName="Syndicate 400mm Steel Plates" />
 <row typeID="31908" typeName="Imperial Navy 400mm Steel Plates" />
 <row typeID="31910" typeName="Federation Navy 400mm Steel Plates" />
@@ -7798,6 +7842,7 @@
 <row typeID="11309" typeName="400mm Rolled Tungsten Compact Plates" />
 <row typeID="11311" typeName="400mm Crystalline Carbonide Restrained Plates" />
 <row typeID="20349" typeName="400mm Steel Plates II" />
+<row typeID="23789" typeName="&apos;Bastion&apos; 400mm Steel Plates" />
 <row typeID="11299" typeName="800mm Steel Plates I" />
 <row typeID="11317" typeName="800mm Rolled Tungsten Compact Plates" />
 <row typeID="11319" typeName="800mm Crystalline Carbonide Restrained Plates" />
@@ -7806,7 +7851,6 @@
 <row typeID="28786" typeName="Syndicate 800mm Steel Plates" />
 <row typeID="31916" typeName="Imperial Navy 800mm Steel Plates" />
 <row typeID="31918" typeName="Federation Navy 800mm Steel Plates" />
-<row typeID="23785" typeName="&apos;Bailey&apos; 1600mm Steel Plates" />
 <row typeID="28780" typeName="Syndicate 1600mm Steel Plates" />
 <row typeID="31900" typeName="Imperial Navy 1600mm Steel Plates" />
 <row typeID="31902" typeName="Federation Navy 1600mm Steel Plates" />
@@ -7814,6 +7858,7 @@
 <row typeID="11325" typeName="1600mm Rolled Tungsten Compact Plates" />
 <row typeID="11327" typeName="1600mm Crystalline Carbonide Restrained Plates" />
 <row typeID="20353" typeName="1600mm Steel Plates II" />
+<row typeID="23785" typeName="&apos;Bailey&apos; 1600mm Steel Plates" />
 <row typeID="11277" typeName="Armor Thermal Hardener I" />
 <row typeID="11648" typeName="Armor Thermal Hardener II" />
 <row typeID="13982" typeName="True Sansha Armor Thermal Hardener" />
@@ -9201,18 +9246,21 @@
 <row typeID="10258" typeName="Minmatar Service Outpost Platform" />
 <row typeID="10260" typeName="Amarr Factory Outpost Platform" />
 <row typeID="19758" typeName="Caldari Research Outpost Platform" />
-<row typeID="21947" typeName="Station Construction Parts" />
-<row typeID="21949" typeName="Station Hangar Array" />
-<row typeID="21951" typeName="Station Storage Bay" />
-<row typeID="21953" typeName="Station Laboratory" />
-<row typeID="21955" typeName="Station Factory" />
-<row typeID="21957" typeName="Station Repair Facility" />
-<row typeID="21959" typeName="Station Reprocessing Plant" />
-<row typeID="21961" typeName="Station Docking Bay" />
-<row typeID="21963" typeName="Station Market Network" />
-<row typeID="21965" typeName="Station Medical Center" />
-<row typeID="21967" typeName="Station Office Center" />
-<row typeID="21969" typeName="Station Mission Network" />
+<row typeID="21947" typeName="Structure Construction Parts" />
+<row typeID="21949" typeName="Structure Hangar Array" />
+<row typeID="21951" typeName="Structure Storage Bay" />
+<row typeID="21953" typeName="Structure Laboratory" />
+<row typeID="21955" typeName="Structure Factory" />
+<row typeID="21957" typeName="Structure Repair Facility" />
+<row typeID="21959" typeName="Structure Reprocessing Plant" />
+<row typeID="21961" typeName="Structure Docking Bay" />
+<row typeID="21963" typeName="Structure Market Network" />
+<row typeID="21965" typeName="Structure Medical Center" />
+<row typeID="21967" typeName="Structure Office Center" />
+<row typeID="21969" typeName="Structure Mission Network" />
+<row typeID="36956" typeName="Structure Telescope Lens" />
+<row typeID="36957" typeName="Structure Acceleration Coils" />
+<row typeID="36958" typeName="Structure Advertisement Nexus" />
 <row typeID="27662" typeName="Amarr Basic Outpost Factory Platform" />
 <row typeID="27664" typeName="Amarr Advanced Outpost Factory Platform" />
 <row typeID="27666" typeName="Amarr Outpost Factory Platform" />
@@ -9514,18 +9562,21 @@
 <row typeID="21944" typeName="Caldari Research Outpost Platform Blueprint" />
 <row typeID="21945" typeName="Gallente Administrative Outpost Platform Blueprint" />
 <row typeID="21946" typeName="Minmatar Service Outpost Platform Blueprint" />
-<row typeID="21948" typeName="Station Construction Parts Blueprint" />
-<row typeID="21950" typeName="Station Hangar Array Blueprint" />
-<row typeID="21952" typeName="Station Storage Bay Blueprint" />
-<row typeID="21954" typeName="Station Laboratory Blueprint" />
-<row typeID="21956" typeName="Station Factory Blueprint" />
-<row typeID="21958" typeName="Station Repair Facility Blueprint" />
-<row typeID="21960" typeName="Station Reprocessing Plant Blueprint" />
-<row typeID="21962" typeName="Station Docking Bay Blueprint" />
-<row typeID="21964" typeName="Station Market Network Blueprint" />
-<row typeID="21966" typeName="Station Medical Center Blueprint" />
-<row typeID="21968" typeName="Station Office Center Blueprint" />
-<row typeID="21970" typeName="Station Mission Network Blueprint" />
+<row typeID="21948" typeName="Structure Construction Parts Blueprint" />
+<row typeID="21950" typeName="Structure Hangar Array Blueprint" />
+<row typeID="21952" typeName="Structure Storage Bay Blueprint" />
+<row typeID="21954" typeName="Structure Laboratory Blueprint" />
+<row typeID="21956" typeName="Structure Factory Blueprint" />
+<row typeID="21958" typeName="Structure Repair Facility Blueprint" />
+<row typeID="21960" typeName="Structure Reprocessing Plant Blueprint" />
+<row typeID="21962" typeName="Structure Docking Bay Blueprint" />
+<row typeID="21964" typeName="Structure Market Network Blueprint" />
+<row typeID="21966" typeName="Structure Medical Center Blueprint" />
+<row typeID="21968" typeName="Structure Office Center Blueprint" />
+<row typeID="21970" typeName="Structure Mission Network Blueprint" />
+<row typeID="36953" typeName="Structure Telescope Lens Blueprint" />
+<row typeID="36954" typeName="Structure Acceleration Coils Blueprint" />
+<row typeID="36955" typeName="Structure Advertisement Nexus Blueprint" />
 <row typeID="11859" typeName="R.A.M.- Energy Tech Blueprint" />
 <row typeID="11860" typeName="R.A.M.- Cybernetics Blueprint" />
 <row typeID="11870" typeName="R.A.M.- Electronics Blueprint" />
@@ -9554,7 +9605,7 @@
 <row typeID="12239" typeName="Compression Array" />
 <row typeID="29668" typeName="30 Day Pilot&apos;s License Extension (PLEX)" />
 <row typeID="33697" typeName="Prospect" />
-<row typeID="37135" typeName="Discovery" />
+<row typeID="37135" typeName="Endurance" />
 <row typeID="33981" typeName="Limited Hyperspatial Accelerator" />
 <row typeID="33983" typeName="Experimental Hyperspatial Accelerator" />
 <row typeID="33985" typeName="Prototype Hyperspatial Accelerator" />
@@ -9680,6 +9731,7 @@
 <row typeID="37573" typeName="Brutix Valimor Legacy SKIN (Permanent)" />
 <row typeID="37574" typeName="Myrmidon Valimor Legacy SKIN (Permanent)" />
 <row typeID="37575" typeName="Talos Valimor Legacy SKIN (Permanent)" />
+<row typeID="39584" typeName="Brutix Serpentis SKIN (Permanent)" />
 <row typeID="34618" typeName="Cyclone Krusual SKIN (Permanent)" />
 <row typeID="34620" typeName="Hurricane Sebiestor SKIN (Permanent)" />
 <row typeID="34621" typeName="Tornado Nefantar SKIN (Permanent)" />
@@ -9691,6 +9743,8 @@
 <row typeID="36825" typeName="Hurricane Blue Tiger SKIN (Permanent)" />
 <row typeID="36826" typeName="Tornado Blue Tiger SKIN (Permanent)" />
 <row typeID="35700" typeName="Nestor Sanctuary SKIN (Permanent)" />
+<row typeID="37869" typeName="Barghest Waschi Uprising &apos;Combat&apos; SKIN (Permanent)" />
+<row typeID="37967" typeName="Barghest Waschi Uprising &apos;Parade&apos; SKIN (Permanent)" />
 <row typeID="34599" typeName="Apocalypse Kador SKIN (Permanent)" />
 <row typeID="34600" typeName="Apocalypse Tash-Murkon SKIN (Permanent)" />
 <row typeID="34623" typeName="Abaddon Kador SKIN (Permanent)" />
@@ -9880,6 +9934,7 @@
 <row typeID="35038" typeName="Catalyst Serpentis SKIN (30 Days)" />
 <row typeID="37560" typeName="Algos Valimor Legacy SKIN (Permanent)" />
 <row typeID="37561" typeName="Catalyst Valimor Legacy SKIN (Permanent)" />
+<row typeID="39585" typeName="Catalyst Serpentis SKIN (Permanent)" />
 <row typeID="34714" typeName="Talwar Sebiestor SKIN (Permanent)" />
 <row typeID="34715" typeName="Thrasher Nefantar SKIN (Permanent)" />
 <row typeID="35586" typeName="Thrasher Thukker Tribe SKIN (30 Days)" />
@@ -9892,6 +9947,10 @@
 <row typeID="36352" typeName="Caldari Navy Hookbill Wiyrkomi SKIN (Permanent)" />
 <row typeID="36393" typeName="Federation Navy Comet Intaki Syndicate SKIN (Permanent)" />
 <row typeID="36443" typeName="Republic Fleet Firetail Justice SKIN (Permanent)" />
+<row typeID="40330" typeName="Crucifier Navy Issue EoM SKIN (Permanent)" />
+<row typeID="40331" typeName="Griffin Navy Issue Wiyrkomi SKIN (Permanent)" />
+<row typeID="40332" typeName="Maulus Navy Issue Intaki Syndicate SKIN (Permanent)" />
+<row typeID="40333" typeName="Vigil Fleet Issue Justice SKIN (Permanent)" />
 <row typeID="34719" typeName="Crucifier Kador SKIN (Permanent)" />
 <row typeID="34720" typeName="Crucifier Sarum SKIN (Permanent)" />
 <row typeID="34721" typeName="Executioner Ardishapur SKIN (Permanent)" />
@@ -10032,8 +10091,16 @@
 <row typeID="34868" typeName="Supercapital Construction Facilities Blueprint" />
 <row typeID="34593" typeName="Entosis Link I" />
 <row typeID="34595" typeName="Entosis Link II" />
+<row typeID="40307" typeName="Noir. Modified Entosis Link" />
+<row typeID="40308" typeName="Spectre Fleet&apos;s Modified Entosis Link" />
+<row typeID="40309" typeName="Affirmative. Modified Entosis Link" />
+<row typeID="40310" typeName="Pandemic SPHERE Modified Entosis Link" />
 <row typeID="34594" typeName="Entosis Link I Blueprint" />
 <row typeID="36949" typeName="Coalesced Element Blueprint" />
+<row typeID="40311" typeName="Noir. Modified Entosis Link Blueprint" />
+<row typeID="40312" typeName="Spectre Fleet&apos;s Modified Entosis Link Blueprint" />
+<row typeID="40313" typeName="Affirmative. Modified Entosis Link Blueprint" />
+<row typeID="40314" typeName="Pandemic SPHERE Modified Entosis Link Blueprint" />
 <row typeID="34828" typeName="Jackdaw" />
 <row typeID="34810" typeName="Paladin Blood Raiders SKIN (Permanent)" />
 <row typeID="36319" typeName="Paladin EoM SKIN (Permanent)" />
@@ -10049,7 +10116,11 @@
 <row typeID="36786" typeName="Vargur Valklear Glory SKIN (Permanent)" />
 <row typeID="36833" typeName="Vargur Blue Tiger SKIN (Permanent)" />
 <row typeID="35695" typeName="Stratios Sanctuary SKIN (Permanent)" />
+<row typeID="37868" typeName="Orthrus Waschi Uprising &apos;Combat&apos; SKIN (Permanent)" />
+<row typeID="37966" typeName="Orthrus Waschi Uprising &apos;Parade&apos; SKIN (Permanent)" />
 <row typeID="35690" typeName="Astero Sanctuary SKIN (Permanent)" />
+<row typeID="37867" typeName="Garmur Waschi Uprising &apos;Combat&apos; SKIN (Permanent)" />
+<row typeID="37965" typeName="Garmur Waschi Uprising &apos;Parade&apos; SKIN (Permanent)" />
 <row typeID="35788" typeName="Missile Guidance Computer I" />
 <row typeID="35789" typeName="Astro-Inertial Compact Missile Guidance Computer" />
 <row typeID="35790" typeName="Missile Guidance Computer II" />
@@ -10283,6 +10354,28 @@
 <row typeID="36785" typeName="Panther Valklear Glory SKIN (Permanent)" />
 <row typeID="36832" typeName="Panther Blue Tiger SKIN (Permanent)" />
 <row typeID="35781" typeName="Fiend" />
+<row typeID="36854" typeName="Sansha Victory SKIN (Permanent)" />
+<row typeID="37481" typeName="Pontifex" />
+<row typeID="37482" typeName="Stork" />
+<row typeID="37483" typeName="Magus" />
+<row typeID="37480" typeName="Bifrost" />
+<row typeID="37621" typeName="Micro Jump Field Generator Blueprint" />
+<row typeID="37479" typeName="Micro Jump Field Generator" />
+<row typeID="40320" typeName="Deacon Raata Sunset SKIN (Permanent)" />
+<row typeID="40321" typeName="Kirin Blue Tiger SKIN (Permanent)" />
+<row typeID="40323" typeName="Thalia Valimor Legacy SKIN (Permanent)" />
+<row typeID="40325" typeName="Scalpel Valklear Glory SKIN (Permanent)" />
+<row typeID="40319" typeName="Pontifex Raata Sunset SKIN (Permanent)" />
+<row typeID="40322" typeName="Stork Blue Tiger SKIN (Permanent)" />
+<row typeID="40324" typeName="Magus Valimor Legacy SKIN (Permanent)" />
+<row typeID="40326" typeName="Bifrost Valklear Glory SKIN (Permanent)" />
+<row typeID="37457" typeName="Deacon" />
+<row typeID="37458" typeName="Kirin" />
+<row typeID="37459" typeName="Thalia" />
+<row typeID="37460" typeName="Scalpel" />
+<row typeID="37450" typeName="Ice Mining Laser I" />
+<row typeID="37451" typeName="Ice Mining Laser II" />
+<row typeID="37452" typeName="ORE Ice Mining Laser" />
 <row typeID="351278" typeName="Gunnlogi C-I" />
 <row typeID="351824" typeName="Madrugar G-I" />
 <row typeID="356072" typeName="&apos;AI-102&apos; Madrugar" />
@@ -10919,6 +11012,7 @@
 <row typeID="353229" typeName="Flux Repair Tool" />
 <row typeID="353748" typeName="Custom Repair Tool" />
 <row typeID="363410" typeName="&apos;Whisper&apos; Repair Tool" />
+<row typeID="370658" typeName="Council&apos;s Modified Repair Tool" />
 <row typeID="353233" typeName="BDR-2 Repair Tool" />
 <row typeID="353234" typeName="BDR-5 Axis Repair Tool" />
 <row typeID="353256" typeName="&apos;Fractal&apos; A/7 Repair Tool" />
